@@ -1,10 +1,10 @@
-## 该项目基于minimind复刻，希望大家支持原作者项目minimind哦～https://github.com/jingyaogong/minimind
+## 该项目基于MokioMind复刻，希望大家能支持原作者项目 非常感谢原作者提供的学习视频 我已严肃star
+#[https://github.com/jingyaogong/minimind](https://github.com/Wood-Q/MokioMind)
 
-### 现在项目还有不完善和错误的地方，优先看视频，后续会慢慢补齐github这边
+###我在原项目上更改了奖励函数以适配广告生成的需求
 
-### 之后会尝试添加推理训练以及agent部分
+###广告数据来源于hugging face 后续会附上链接
 
-### 希望能为其他项目点点star🌟
+###接入了外置的评分程序
 
-### 感谢你的支持
-
+###只做了sft 和 grpo 模型效果不太理想，如果有人git clone的话希望能和我分享优化思路
