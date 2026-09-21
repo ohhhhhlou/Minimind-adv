@@ -8,3 +8,27 @@ wheels/
 
 # Virtual environments
 .venv
+
+.venv*/
+.cache/
+.env
+.env.*
+
+# Dataset files are stored separately
+/dataset/**
+!/dataset/
+!/dataset/README.md
+
+# Dataset files are stored separately
+/dataset/**
+!/dataset/
+!/dataset/README.md
+
+# Local environments and caches
+.venv*/
+.cache/
+
+# Model checkpoints
+/checkpoints/**
+!/checkpoints/
+!/checkpoints/README.md

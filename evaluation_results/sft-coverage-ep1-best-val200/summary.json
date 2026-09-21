@@ -1,0 +1,354 @@
+{
+  "status": "complete",
+  "samples": 200,
+  "overall": {
+    "reference_metrics": {
+      "samples": 200,
+      "attribute_hits": {
+        "mean": 6.36,
+        "n": 200
+      },
+      "attribute_count": {
+        "mean": 7.34,
+        "n": 200
+      },
+      "key_attribute_hits": {
+        "mean": 2.07,
+        "n": 200
+      },
+      "key_attribute_count": {
+        "mean": 2.67,
+        "n": 200
+      },
+      "literal_coverage": {
+        "mean": 0.8635400432900433,
+        "n": 200
+      },
+      "key_literal_coverage": {
+        "mean": 0.7276666666666667,
+        "n": 200
+      },
+      "all_attributes_covered": {
+        "mean": 0.3,
+        "n": 200
+      },
+      "repeated_char_4gram_ratio": {
+        "mean": 0.0031734417770493844,
+        "n": 200
+      },
+      "repeated_token_4gram_ratio": {
+        "mean": 0.004443461396495771,
+        "n": 200
+      },
+      "loop": {
+        "mean": 0.0,
+        "n": 200
+      },
+      "eos_normal": {
+        "mean": null,
+        "n": 0
+      },
+      "char_length": {
+        "mean": 108.69,
+        "n": 200
+      },
+      "token_length": {
+        "mean": 109.89,
+        "n": 200
+      },
+      "literal_coverage_micro": 0.8664850136239782,
+      "key_literal_coverage_micro": 0.7752808988764045
+    },
+    "output_metrics": {
+      "samples": 200,
+      "attribute_hits": {
+        "mean": 3.58,
+        "n": 200
+      },
+      "attribute_count": {
+        "mean": 7.34,
+        "n": 200
+      },
+      "key_attribute_hits": {
+        "mean": 1.605,
+        "n": 200
+      },
+      "key_attribute_count": {
+        "mean": 2.67,
+        "n": 200
+      },
+      "literal_coverage": {
+        "mean": 0.5225300324675325,
+        "n": 200
+      },
+      "key_literal_coverage": {
+        "mean": 0.5944166666666666,
+        "n": 200
+      },
+      "all_attributes_covered": {
+        "mean": 0.065,
+        "n": 200
+      },
+      "repeated_char_4gram_ratio": {
+        "mean": 0.4384906716923302,
+        "n": 200
+      },
+      "repeated_token_4gram_ratio": {
+        "mean": 0.42222576289275165,
+        "n": 200
+      },
+      "loop": {
+        "mean": 0.38,
+        "n": 200
+      },
+      "eos_normal": {
+        "mean": 0.685,
+        "n": 200
+      },
+      "char_length": {
+        "mean": 81.46,
+        "n": 200
+      },
+      "token_length": {
+        "mean": 75.29,
+        "n": 200
+      },
+      "literal_coverage_micro": 0.4877384196185286,
+      "key_literal_coverage_micro": 0.601123595505618
+    }
+  },
+  "by_input_style": {
+    "natural": {
+      "reference_metrics": {
+        "samples": 100,
+        "attribute_hits": {
+          "mean": 6.36,
+          "n": 100
+        },
+        "attribute_count": {
+          "mean": 7.34,
+          "n": 100
+        },
+        "key_attribute_hits": {
+          "mean": 2.07,
+          "n": 100
+        },
+        "key_attribute_count": {
+          "mean": 2.67,
+          "n": 100
+        },
+        "literal_coverage": {
+          "mean": 0.8635400432900433,
+          "n": 100
+        },
+        "key_literal_coverage": {
+          "mean": 0.7276666666666667,
+          "n": 100
+        },
+        "all_attributes_covered": {
+          "mean": 0.3,
+          "n": 100
+        },
+        "repeated_char_4gram_ratio": {
+          "mean": 0.0031734417770493844,
+          "n": 100
+        },
+        "repeated_token_4gram_ratio": {
+          "mean": 0.004443461396495771,
+          "n": 100
+        },
+        "loop": {
+          "mean": 0.0,
+          "n": 100
+        },
+        "eos_normal": {
+          "mean": null,
+          "n": 0
+        },
+        "char_length": {
+          "mean": 108.69,
+          "n": 100
+        },
+        "token_length": {
+          "mean": 109.89,
+          "n": 100
+        },
+        "literal_coverage_micro": 0.8664850136239782,
+        "key_literal_coverage_micro": 0.7752808988764045
+      },
+      "output_metrics": {
+        "samples": 100,
+        "attribute_hits": {
+          "mean": 3.35,
+          "n": 100
+        },
+        "attribute_count": {
+          "mean": 7.34,
+          "n": 100
+        },
+        "key_attribute_hits": {
+          "mean": 1.56,
+          "n": 100
+        },
+        "key_attribute_count": {
+          "mean": 2.67,
+          "n": 100
+        },
+        "literal_coverage": {
+          "mean": 0.492222582972583,
+          "n": 100
+        },
+        "key_literal_coverage": {
+          "mean": 0.5816666666666667,
+          "n": 100
+        },
+        "all_attributes_covered": {
+          "mean": 0.05,
+          "n": 100
+        },
+        "repeated_char_4gram_ratio": {
+          "mean": 0.47136976261801017,
+          "n": 100
+        },
+        "repeated_token_4gram_ratio": {
+          "mean": 0.45403306313208863,
+          "n": 100
+        },
+        "loop": {
+          "mean": 0.44,
+          "n": 100
+        },
+        "eos_normal": {
+          "mean": 0.63,
+          "n": 100
+        },
+        "char_length": {
+          "mean": 83.89,
+          "n": 100
+        },
+        "token_length": {
+          "mean": 76.13,
+          "n": 100
+        },
+        "literal_coverage_micro": 0.4564032697547684,
+        "key_literal_coverage_micro": 0.5842696629213483
+      }
+    },
+    "structured": {
+      "reference_metrics": {
+        "samples": 100,
+        "attribute_hits": {
+          "mean": 6.36,
+          "n": 100
+        },
+        "attribute_count": {
+          "mean": 7.34,
+          "n": 100
+        },
+        "key_attribute_hits": {
+          "mean": 2.07,
+          "n": 100
+        },
+        "key_attribute_count": {
+          "mean": 2.67,
+          "n": 100
+        },
+        "literal_coverage": {
+          "mean": 0.8635400432900433,
+          "n": 100
+        },
+        "key_literal_coverage": {
+          "mean": 0.7276666666666667,
+          "n": 100
+        },
+        "all_attributes_covered": {
+          "mean": 0.3,
+          "n": 100
+        },
+        "repeated_char_4gram_ratio": {
+          "mean": 0.0031734417770493844,
+          "n": 100
+        },
+        "repeated_token_4gram_ratio": {
+          "mean": 0.004443461396495771,
+          "n": 100
+        },
+        "loop": {
+          "mean": 0.0,
+          "n": 100
+        },
+        "eos_normal": {
+          "mean": null,
+          "n": 0
+        },
+        "char_length": {
+          "mean": 108.69,
+          "n": 100
+        },
+        "token_length": {
+          "mean": 109.89,
+          "n": 100
+        },
+        "literal_coverage_micro": 0.8664850136239782,
+        "key_literal_coverage_micro": 0.7752808988764045
+      },
+      "output_metrics": {
+        "samples": 100,
+        "attribute_hits": {
+          "mean": 3.81,
+          "n": 100
+        },
+        "attribute_count": {
+          "mean": 7.34,
+          "n": 100
+        },
+        "key_attribute_hits": {
+          "mean": 1.65,
+          "n": 100
+        },
+        "key_attribute_count": {
+          "mean": 2.67,
+          "n": 100
+        },
+        "literal_coverage": {
+          "mean": 0.552837481962482,
+          "n": 100
+        },
+        "key_literal_coverage": {
+          "mean": 0.6071666666666666,
+          "n": 100
+        },
+        "all_attributes_covered": {
+          "mean": 0.08,
+          "n": 100
+        },
+        "repeated_char_4gram_ratio": {
+          "mean": 0.40561158076665016,
+          "n": 100
+        },
+        "repeated_token_4gram_ratio": {
+          "mean": 0.3904184626534148,
+          "n": 100
+        },
+        "loop": {
+          "mean": 0.32,
+          "n": 100
+        },
+        "eos_normal": {
+          "mean": 0.74,
+          "n": 100
+        },
+        "char_length": {
+          "mean": 79.03,
+          "n": 100
+        },
+        "token_length": {
+          "mean": 74.45,
+          "n": 100
+        },
+        "literal_coverage_micro": 0.5190735694822888,
+        "key_literal_coverage_micro": 0.6179775280898876
+      }
+    }
+  }
+}

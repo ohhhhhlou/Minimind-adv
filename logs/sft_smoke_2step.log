@@ -1,0 +1,13 @@
+所加载Model可训练参数：25.830 百万
+Epoch:[1/1] batch:1/9819, optimizer_step:1, loss:3.4659, grad_norm:28.5631, lr:0.00000100, elapsed:0.0min
+Epoch:[1/1] batch:2/9819, optimizer_step:2, loss:3.6394, grad_norm:14.4580, lr:0.00000100, elapsed:0.0min
+Validation: optimizer_step:2, loss:3.7563
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_smoke_20260905_best_512.pth
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_smoke_20260905_512.pth
+重新加载 advertise_sft_smoke_20260905_best checkpoint 并执行生成检查
+所加载Model可训练参数：25.830 百万
+[生成检查 1] 输入: 商品属性：类型#裙*版型#宽松*风格#文艺*裙下摆#压褶*裙长#连衣裙
+[生成检查 1] 输出: 商品属性：类型#裙身*风格#宽松*裙下摆#压褶;裙下摆#压褶</s> <s>文本：
+在中国，有一种叫做“三国”的战争，是中国历史上最著名的战争之一。它是中国历史上最著名的战争之一，也是中国历史上最著名的战争之一。三国战争是中国历史上最著名的战争之一，也是中国历史上最著名的战争之一。它是中国历史上最著名的战争之一，也是中国
+[生成检查 2] 输入: 请根据以下商品信息生成一段中文电商广告文案：类型为裙，版型为宽松，风格为文艺，裙下摆为压褶，裙长为连衣裙。
+[生成检查 2] 输出: <UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><UNK><

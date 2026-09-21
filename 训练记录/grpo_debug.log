@@ -1,0 +1,15 @@
+所加载Model可训练参数：25.830 百万
+所加载Model可训练参数：25.830 百万
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 104.32it/s]
+DEBUG reward_tokenizer: <class 'bool'> False
+Traceback (most recent call last):
+  File "/root/autodl-tmp/MokioMind/trainer/train_grpo.py", line 505, in <module>
+    grpo_train_epoch(
+  File "/root/autodl-tmp/MokioMind/trainer/train_grpo.py", line 188, in grpo_train_epoch
+    rewards = calculate_rewards(
+              ^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/MokioMind/trainer/train_grpo.py", line 77, in calculate_rewards
+    assert hasattr(reward_tokenizer, "apply_chat_template"), (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: reward_tokenizer类型错误：<class 'bool'>，实际值：False

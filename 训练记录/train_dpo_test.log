@@ -1,0 +1,21 @@
+/root/autodl-tmp/MokioMind/trainer/train_dpo.py:309: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  nullcontext() if device_type == "cpu" else torch.cuda.amp.autocast(dtype=dtype)
+/root/autodl-tmp/MokioMind/trainer/train_dpo.py:345: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(args.dtype == "float16"))
+所加载Model可训练参数：25.830 百万
+策略模型总参数量：25.830 M
+所加载Model可训练参数：25.830 百万
+参考模型总参数量：25.830 M
+Epoch:[1/1](10/125) loss:0.693682 lr:0.000000039434 epoch_Time:0.0min:
+Epoch:[1/1](20/125) loss:0.694957 lr:0.000000037774 epoch_Time:0.0min:
+Epoch:[1/1](30/125) loss:0.692424 lr:0.000000035121 epoch_Time:0.0min:
+Epoch:[1/1](40/125) loss:0.691905 lr:0.000000031645 epoch_Time:0.0min:
+Epoch:[1/1](50/125) loss:0.691181 lr:0.000000027562 epoch_Time:0.0min:
+Epoch:[1/1](60/125) loss:0.691027 lr:0.000000023130 epoch_Time:0.0min:
+Epoch:[1/1](70/125) loss:0.693531 lr:0.000000018627 epoch_Time:0.0min:
+Epoch:[1/1](80/125) loss:0.693115 lr:0.000000014336 epoch_Time:0.0min:
+Epoch:[1/1](90/125) loss:0.693256 lr:0.000000010526 epoch_Time:0.0min:
+Epoch:[1/1](100/125) loss:0.692147 lr:0.000000007438 epoch_Time:0.0min:
+Epoch:[1/1](110/125) loss:0.689793 lr:0.000000005264 epoch_Time:0.0min:
+Epoch:[1/1](120/125) loss:0.692431 lr:0.000000004142 epoch_Time:0.0min:
+Epoch:[1/1](125/125) loss:0.690271 lr:0.000000004000 epoch_Time:0.0min:

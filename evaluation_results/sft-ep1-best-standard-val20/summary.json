@@ -1,0 +1,354 @@
+{
+  "status": "complete",
+  "samples": 20,
+  "overall": {
+    "reference_metrics": {
+      "samples": 20,
+      "attribute_hits": {
+        "mean": 6.2,
+        "n": 20
+      },
+      "attribute_count": {
+        "mean": 7.2,
+        "n": 20
+      },
+      "key_attribute_hits": {
+        "mean": 2.2,
+        "n": 20
+      },
+      "key_attribute_count": {
+        "mean": 2.7,
+        "n": 20
+      },
+      "literal_coverage": {
+        "mean": 0.8553932178932179,
+        "n": 20
+      },
+      "key_literal_coverage": {
+        "mean": 0.7466666666666667,
+        "n": 20
+      },
+      "all_attributes_covered": {
+        "mean": 0.3,
+        "n": 20
+      },
+      "repeated_char_4gram_ratio": {
+        "mean": 0.007109301597243971,
+        "n": 20
+      },
+      "repeated_token_4gram_ratio": {
+        "mean": 0.009510481225611066,
+        "n": 20
+      },
+      "loop": {
+        "mean": 0.0,
+        "n": 20
+      },
+      "eos_normal": {
+        "mean": null,
+        "n": 0
+      },
+      "char_length": {
+        "mean": 111.4,
+        "n": 20
+      },
+      "token_length": {
+        "mean": 110.7,
+        "n": 20
+      },
+      "literal_coverage_micro": 0.8611111111111112,
+      "key_literal_coverage_micro": 0.8148148148148148
+    },
+    "output_metrics": {
+      "samples": 20,
+      "attribute_hits": {
+        "mean": 0.95,
+        "n": 20
+      },
+      "attribute_count": {
+        "mean": 7.2,
+        "n": 20
+      },
+      "key_attribute_hits": {
+        "mean": 0.55,
+        "n": 20
+      },
+      "key_attribute_count": {
+        "mean": 2.7,
+        "n": 20
+      },
+      "literal_coverage": {
+        "mean": 0.12401695526695526,
+        "n": 20
+      },
+      "key_literal_coverage": {
+        "mean": 0.19083333333333333,
+        "n": 20
+      },
+      "all_attributes_covered": {
+        "mean": 0.0,
+        "n": 20
+      },
+      "repeated_char_4gram_ratio": {
+        "mean": 0.0,
+        "n": 20
+      },
+      "repeated_token_4gram_ratio": {
+        "mean": 0.0,
+        "n": 20
+      },
+      "loop": {
+        "mean": 0.0,
+        "n": 20
+      },
+      "eos_normal": {
+        "mean": 0.45,
+        "n": 20
+      },
+      "char_length": {
+        "mean": 89.3,
+        "n": 20
+      },
+      "token_length": {
+        "mean": 86.95,
+        "n": 20
+      },
+      "literal_coverage_micro": 0.13194444444444445,
+      "key_literal_coverage_micro": 0.2037037037037037
+    }
+  },
+  "by_input_style": {
+    "natural": {
+      "reference_metrics": {
+        "samples": 10,
+        "attribute_hits": {
+          "mean": 6.2,
+          "n": 10
+        },
+        "attribute_count": {
+          "mean": 7.2,
+          "n": 10
+        },
+        "key_attribute_hits": {
+          "mean": 2.2,
+          "n": 10
+        },
+        "key_attribute_count": {
+          "mean": 2.7,
+          "n": 10
+        },
+        "literal_coverage": {
+          "mean": 0.8553932178932179,
+          "n": 10
+        },
+        "key_literal_coverage": {
+          "mean": 0.7466666666666667,
+          "n": 10
+        },
+        "all_attributes_covered": {
+          "mean": 0.3,
+          "n": 10
+        },
+        "repeated_char_4gram_ratio": {
+          "mean": 0.007109301597243971,
+          "n": 10
+        },
+        "repeated_token_4gram_ratio": {
+          "mean": 0.009510481225611066,
+          "n": 10
+        },
+        "loop": {
+          "mean": 0.0,
+          "n": 10
+        },
+        "eos_normal": {
+          "mean": null,
+          "n": 0
+        },
+        "char_length": {
+          "mean": 111.4,
+          "n": 10
+        },
+        "token_length": {
+          "mean": 110.7,
+          "n": 10
+        },
+        "literal_coverage_micro": 0.8611111111111112,
+        "key_literal_coverage_micro": 0.8148148148148148
+      },
+      "output_metrics": {
+        "samples": 10,
+        "attribute_hits": {
+          "mean": 1.0,
+          "n": 10
+        },
+        "attribute_count": {
+          "mean": 7.2,
+          "n": 10
+        },
+        "key_attribute_hits": {
+          "mean": 0.5,
+          "n": 10
+        },
+        "key_attribute_count": {
+          "mean": 2.7,
+          "n": 10
+        },
+        "literal_coverage": {
+          "mean": 0.12516955266955268,
+          "n": 10
+        },
+        "key_literal_coverage": {
+          "mean": 0.13166666666666665,
+          "n": 10
+        },
+        "all_attributes_covered": {
+          "mean": 0.0,
+          "n": 10
+        },
+        "repeated_char_4gram_ratio": {
+          "mean": 0.0,
+          "n": 10
+        },
+        "repeated_token_4gram_ratio": {
+          "mean": 0.0,
+          "n": 10
+        },
+        "loop": {
+          "mean": 0.0,
+          "n": 10
+        },
+        "eos_normal": {
+          "mean": 0.3,
+          "n": 10
+        },
+        "char_length": {
+          "mean": 88.2,
+          "n": 10
+        },
+        "token_length": {
+          "mean": 85.1,
+          "n": 10
+        },
+        "literal_coverage_micro": 0.1388888888888889,
+        "key_literal_coverage_micro": 0.18518518518518517
+      }
+    },
+    "structured": {
+      "reference_metrics": {
+        "samples": 10,
+        "attribute_hits": {
+          "mean": 6.2,
+          "n": 10
+        },
+        "attribute_count": {
+          "mean": 7.2,
+          "n": 10
+        },
+        "key_attribute_hits": {
+          "mean": 2.2,
+          "n": 10
+        },
+        "key_attribute_count": {
+          "mean": 2.7,
+          "n": 10
+        },
+        "literal_coverage": {
+          "mean": 0.8553932178932179,
+          "n": 10
+        },
+        "key_literal_coverage": {
+          "mean": 0.7466666666666667,
+          "n": 10
+        },
+        "all_attributes_covered": {
+          "mean": 0.3,
+          "n": 10
+        },
+        "repeated_char_4gram_ratio": {
+          "mean": 0.007109301597243971,
+          "n": 10
+        },
+        "repeated_token_4gram_ratio": {
+          "mean": 0.009510481225611066,
+          "n": 10
+        },
+        "loop": {
+          "mean": 0.0,
+          "n": 10
+        },
+        "eos_normal": {
+          "mean": null,
+          "n": 0
+        },
+        "char_length": {
+          "mean": 111.4,
+          "n": 10
+        },
+        "token_length": {
+          "mean": 110.7,
+          "n": 10
+        },
+        "literal_coverage_micro": 0.8611111111111112,
+        "key_literal_coverage_micro": 0.8148148148148148
+      },
+      "output_metrics": {
+        "samples": 10,
+        "attribute_hits": {
+          "mean": 0.9,
+          "n": 10
+        },
+        "attribute_count": {
+          "mean": 7.2,
+          "n": 10
+        },
+        "key_attribute_hits": {
+          "mean": 0.6,
+          "n": 10
+        },
+        "key_attribute_count": {
+          "mean": 2.7,
+          "n": 10
+        },
+        "literal_coverage": {
+          "mean": 0.12286435786435787,
+          "n": 10
+        },
+        "key_literal_coverage": {
+          "mean": 0.25,
+          "n": 10
+        },
+        "all_attributes_covered": {
+          "mean": 0.0,
+          "n": 10
+        },
+        "repeated_char_4gram_ratio": {
+          "mean": 0.0,
+          "n": 10
+        },
+        "repeated_token_4gram_ratio": {
+          "mean": 0.0,
+          "n": 10
+        },
+        "loop": {
+          "mean": 0.0,
+          "n": 10
+        },
+        "eos_normal": {
+          "mean": 0.6,
+          "n": 10
+        },
+        "char_length": {
+          "mean": 90.4,
+          "n": 10
+        },
+        "token_length": {
+          "mean": 88.8,
+          "n": 10
+        },
+        "literal_coverage_micro": 0.125,
+        "key_literal_coverage_micro": 0.2222222222222222
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "features": [
+    "bias",
+    "attr_coverage",
+    "length_quality",
+    "char_repeat",
+    "token_repeat",
+    "eos_complete",
+    "malformed"
+  ],
+  "weights": [
+    0.0,
+    0.0,
+    0.43029288489447953,
+    0.06308493445860125,
+    0.05951911131909384,
+    -0.010749688479963607,
+    0.010749688479963607
+  ],
+  "pairs": 600,
+  "train_pairs": 480,
+  "val_pairs": 120,
+  "train_accuracy": 0.6145833333333334,
+  "val_accuracy": 0.65,
+  "fit_policy": "pairwise logistic with L2; content features only"
+}

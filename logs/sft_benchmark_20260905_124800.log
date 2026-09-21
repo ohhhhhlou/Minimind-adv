@@ -1,0 +1,23 @@
+所加载Model可训练参数：25.830 百万
+Epoch:[1/1] batch:1/9819, optimizer_step:1, loss:3.4659, grad_norm:28.5631, lr:0.00000100, elapsed:0.0min
+Epoch:[1/1] batch:5/9819, optimizer_step:5, loss:3.5459, grad_norm:19.3838, lr:0.00000100, elapsed:0.0min
+Epoch:[1/1] batch:10/9819, optimizer_step:10, loss:3.6315, grad_norm:14.6977, lr:0.00000100, elapsed:0.0min
+Epoch:[1/1] batch:15/9819, optimizer_step:15, loss:3.3764, grad_norm:22.1858, lr:0.00000100, elapsed:0.0min
+Epoch:[1/1] batch:20/9819, optimizer_step:20, loss:3.1801, grad_norm:9.2761, lr:0.00000100, elapsed:0.0min
+Epoch:[1/1] batch:25/9819, optimizer_step:25, loss:3.4955, grad_norm:17.5623, lr:0.00000100, elapsed:0.0min
+Epoch:[1/1] batch:30/9819, optimizer_step:30, loss:3.1426, grad_norm:15.4291, lr:0.00000100, elapsed:0.0min
+Epoch:[1/1] batch:35/9819, optimizer_step:35, loss:3.4609, grad_norm:15.6353, lr:0.00000100, elapsed:0.0min
+Epoch:[1/1] batch:40/9819, optimizer_step:40, loss:3.4155, grad_norm:7.8547, lr:0.00000100, elapsed:0.0min
+Epoch:[1/1] batch:45/9819, optimizer_step:45, loss:3.2133, grad_norm:9.4008, lr:0.00000100, elapsed:0.1min
+Epoch:[1/1] batch:50/9819, optimizer_step:50, loss:3.3517, grad_norm:11.5153, lr:0.00000100, elapsed:0.1min
+Validation: optimizer_step:50, loss:3.5257
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_benchmark_50step_best_512.pth
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_benchmark_50step_512.pth
+重新加载 advertise_sft_benchmark_50step_best checkpoint 并执行生成检查
+所加载Model可训练参数：25.830 百万
+[生成检查 1] 输入: 商品属性：类型#裙*版型#宽松*风格#文艺*裙下摆#压褶*裙长#连衣裙
+[生成检查 1] 输出: 宽松连衣裙，宽松的裙摆，穿着的舒适，让你在穿着的时候也能轻松。宽松的裙摆，让你在穿着的时候也能轻松。</s> <s>根据标题生成商品文案：
+冬季男士加绒加厚保暖裤子男韩版潮流修身小脚裤子男士休闲裤
+这款休闲裤采用了优质的面料，透气性好，穿起来非常舒适，穿在身
+[生成检查 2] 输入: 请根据以下商品信息生成一段中文电商广告文案：类型为裙，版型为宽松，风格为文艺，裙下摆为压褶，裙长为连衣裙。
+[生成检查 2] 输出: 这款裙子采用了宽松的版型，宽松的版型，让你在穿着时更加舒适。裙身的轮廓和线条流畅，让你在穿着时更加的舒适。裙身的轮廓和线条流畅，让你在穿着时更加的舒适。裙身的轮廓和压褶的线条，让你在穿着时更加的舒适。裙身的轮廓和轮廓让你在穿着时更加的舒适，让你在穿着时

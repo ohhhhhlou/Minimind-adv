@@ -1,0 +1,2 @@
+# Install only in a separately prepared evaluation environment; see README.
+evalscope==1.8.0

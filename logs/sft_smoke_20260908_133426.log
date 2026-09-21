@@ -1,0 +1,16 @@
+所加载Model可训练参数：25.830 百万
+
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 12645 examples [00:00, 100839.38 examples/s]
+Generating train split: 20000 examples [00:00, 102198.02 examples/s]
+Epoch:[1/1] batch:1/2500, optimizer_step:1, loss:2.3323, grad_norm:2.6513, lr:0.00000050, elapsed:0.0min
+Epoch:[1/1] batch:2/2500, optimizer_step:2, loss:2.3911, grad_norm:3.0643, lr:0.00000050, elapsed:0.0min
+Validation: optimizer_step:2, loss:2.6442
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_mixed_coverage_smoke_best_512.pth
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_mixed_coverage_smoke_512.pth
+重新加载 advertise_sft_mixed_coverage_smoke_best checkpoint 并执行生成检查
+所加载Model可训练参数：25.830 百万
+[生成检查 1] 输入: 商品属性：类型#裙*版型#宽松*风格#文艺*裙下摆#压褶*裙长#连衣裙
+[生成检查 1] 输出: 这款连衣裙采用了宽松的版型设计，穿着舒适，穿着舒适。宽松的版型设计，穿着舒适，穿着舒适。腰部的压褶设计，穿着舒适，穿着舒适。
+[生成检查 2] 输入: 请根据以下商品信息生成一段中文电商广告文案：类型为裙，版型为宽松，风格为文艺，裙下摆为压褶，裙长为连衣裙。
+[生成检查 2] 输出: 这款连衣裙采用了宽松的版型设计，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿

@@ -1,0 +1,2575 @@
+{
+  "left": "evaluation_results/sft-best-val998-v2",
+  "right": "evaluation_results/sft-ep1-best-standard-val998",
+  "checks": {
+    "checkpoint_sha256": {
+      "status": "same",
+      "left": "e822c60aabf0e9d2af878615d060ecac365a9b569769075c92d3ca87d15d73c7",
+      "right": "e822c60aabf0e9d2af878615d060ecac365a9b569769075c92d3ca87d15d73c7"
+    },
+    "data_sha256": {
+      "status": "same",
+      "left": "56ea1e389887ef62337a1ca0624a909ebde533d70ac66293f2f757633213bfc9",
+      "right": "56ea1e389887ef62337a1ca0624a909ebde533d70ac66293f2f757633213bfc9"
+    },
+    "tokenizer_sha256": {
+      "status": "same",
+      "left": {
+        "tokenizer.json": "d98595c6aef70d95f72748582fb9b4f53d76dd58c1ae1dd702ad7c84e1caf5e4",
+        "tokenizer_config.json": "57edb808531fc23ff7c182a849c68a349c108d01bc4b6dbb5a6116785b85e562"
+      },
+      "right": {
+        "tokenizer.json": "d98595c6aef70d95f72748582fb9b4f53d76dd58c1ae1dd702ad7c84e1caf5e4",
+        "tokenizer_config.json": "57edb808531fc23ff7c182a849c68a349c108d01bc4b6dbb5a6116785b85e562"
+      }
+    },
+    "model_code_sha256": {
+      "status": "same",
+      "left": "f59c04594f0e6e1603bd9651090741e2369e649b0aa9b2b69ba0ee3e33db779a",
+      "right": "f59c04594f0e6e1603bd9651090741e2369e649b0aa9b2b69ba0ee3e33db779a"
+    },
+    "model_config": {
+      "status": "same",
+      "left": {
+        "return_dict": true,
+        "output_hidden_states": false,
+        "torchscript": false,
+        "dtype": null,
+        "pruned_heads": {},
+        "tie_word_embeddings": true,
+        "chunk_size_feed_forward": 0,
+        "is_encoder_decoder": false,
+        "is_decoder": false,
+        "cross_attention_hidden_size": null,
+        "add_cross_attention": false,
+        "tie_encoder_decoder": false,
+        "architectures": null,
+        "finetuning_task": null,
+        "id2label": {
+          "0": "LABEL_0",
+          "1": "LABEL_1"
+        },
+        "label2id": {
+          "LABEL_0": 0,
+          "LABEL_1": 1
+        },
+        "task_specific_params": null,
+        "problem_type": null,
+        "tokenizer_class": null,
+        "prefix": null,
+        "bos_token_id": 1,
+        "pad_token_id": null,
+        "eos_token_id": 2,
+        "sep_token_id": null,
+        "decoder_start_token_id": null,
+        "max_length": 20,
+        "min_length": 0,
+        "do_sample": false,
+        "early_stopping": false,
+        "num_beams": 1,
+        "num_beam_groups": 1,
+        "diversity_penalty": 0.0,
+        "temperature": 1.0,
+        "top_k": 50,
+        "top_p": 1.0,
+        "typical_p": 1.0,
+        "repetition_penalty": 1.0,
+        "length_penalty": 1.0,
+        "no_repeat_ngram_size": 0,
+        "encoder_no_repeat_ngram_size": 0,
+        "bad_words_ids": null,
+        "num_return_sequences": 1,
+        "output_scores": false,
+        "return_dict_in_generate": false,
+        "forced_bos_token_id": null,
+        "forced_eos_token_id": null,
+        "remove_invalid_values": false,
+        "exponential_decay_length_penalty": null,
+        "suppress_tokens": null,
+        "begin_suppress_tokens": null,
+        "_name_or_path": "",
+        "transformers_version": "4.56.2",
+        "tf_legacy_loss": false,
+        "use_bfloat16": false,
+        "dropout": 0.0,
+        "hidden_act": "silu",
+        "hidden_size": 512,
+        "intermediate_size": 1408,
+        "max_position_embeddings": 32768,
+        "num_attention_heads": 8,
+        "num_hidden_layers": 8,
+        "num_key_value_heads": 2,
+        "vocab_size": 6400,
+        "rms_norm_eps": 1e-05,
+        "rope_theta": 1000000,
+        "inference_rope_scaling": false,
+        "flash_attention": false,
+        "use_moe": false,
+        "num_experts_per_tok": 2,
+        "n_routed_experts": 4,
+        "n_shared_experts": 1,
+        "seq_aux": true,
+        "norm_topk_prob": true,
+        "aux_loss_alpha": 0.01,
+        "scoring_func": "softmax",
+        "rope_scaling": null,
+        "model_type": "mokiomind",
+        "output_attentions": false
+      },
+      "right": {
+        "return_dict": true,
+        "output_hidden_states": false,
+        "torchscript": false,
+        "dtype": null,
+        "pruned_heads": {},
+        "tie_word_embeddings": true,
+        "chunk_size_feed_forward": 0,
+        "is_encoder_decoder": false,
+        "is_decoder": false,
+        "cross_attention_hidden_size": null,
+        "add_cross_attention": false,
+        "tie_encoder_decoder": false,
+        "architectures": null,
+        "finetuning_task": null,
+        "id2label": {
+          "0": "LABEL_0",
+          "1": "LABEL_1"
+        },
+        "label2id": {
+          "LABEL_0": 0,
+          "LABEL_1": 1
+        },
+        "task_specific_params": null,
+        "problem_type": null,
+        "tokenizer_class": null,
+        "prefix": null,
+        "bos_token_id": 1,
+        "pad_token_id": null,
+        "eos_token_id": 2,
+        "sep_token_id": null,
+        "decoder_start_token_id": null,
+        "max_length": 20,
+        "min_length": 0,
+        "do_sample": false,
+        "early_stopping": false,
+        "num_beams": 1,
+        "num_beam_groups": 1,
+        "diversity_penalty": 0.0,
+        "temperature": 1.0,
+        "top_k": 50,
+        "top_p": 1.0,
+        "typical_p": 1.0,
+        "repetition_penalty": 1.0,
+        "length_penalty": 1.0,
+        "no_repeat_ngram_size": 0,
+        "encoder_no_repeat_ngram_size": 0,
+        "bad_words_ids": null,
+        "num_return_sequences": 1,
+        "output_scores": false,
+        "return_dict_in_generate": false,
+        "forced_bos_token_id": null,
+        "forced_eos_token_id": null,
+        "remove_invalid_values": false,
+        "exponential_decay_length_penalty": null,
+        "suppress_tokens": null,
+        "begin_suppress_tokens": null,
+        "_name_or_path": "",
+        "transformers_version": "4.56.2",
+        "tf_legacy_loss": false,
+        "use_bfloat16": false,
+        "dropout": 0.0,
+        "hidden_act": "silu",
+        "hidden_size": 512,
+        "intermediate_size": 1408,
+        "max_position_embeddings": 32768,
+        "num_attention_heads": 8,
+        "num_hidden_layers": 8,
+        "num_key_value_heads": 2,
+        "vocab_size": 6400,
+        "rms_norm_eps": 1e-05,
+        "rope_theta": 1000000,
+        "inference_rope_scaling": false,
+        "flash_attention": false,
+        "use_moe": false,
+        "num_experts_per_tok": 2,
+        "n_routed_experts": 4,
+        "n_shared_experts": 1,
+        "seq_aux": true,
+        "norm_topk_prob": true,
+        "aux_loss_alpha": 0.01,
+        "scoring_func": "softmax",
+        "rope_scaling": null,
+        "model_type": "mokiomind",
+        "output_attentions": false
+      }
+    },
+    "packages": {
+      "status": "same",
+      "left": {
+        "torch": "2.13.0",
+        "transformers": "4.56.2",
+        "evalscope": "1.8.0"
+      },
+      "right": {
+        "torch": "2.13.0",
+        "transformers": "4.56.2",
+        "evalscope": "1.8.0"
+      }
+    },
+    "python": {
+      "status": "same",
+      "left": "3.12.3",
+      "right": "3.12.3"
+    },
+    "device": {
+      "status": "same",
+      "left": "NVIDIA GeForce RTX 4080",
+      "right": "NVIDIA GeForce RTX 4080"
+    },
+    "cuda": {
+      "status": "same",
+      "left": "13.0",
+      "right": "13.0"
+    },
+    "seed": {
+      "status": "same",
+      "left": 2026,
+      "right": 2026
+    },
+    "seed_policy": {
+      "status": "unknown",
+      "left": null,
+      "right": "reset torch seed before each sample"
+    },
+    "protocol": {
+      "status": "same",
+      "left": "advertisegen-literal-v2",
+      "right": "advertisegen-literal-v2"
+    },
+    "key_attributes": {
+      "status": "same",
+      "left": [
+        "材质",
+        "版型",
+        "类型",
+        "衣长",
+        "袖长",
+        "裙长",
+        "裤长",
+        "长度",
+        "面料",
+        "颜色"
+      ],
+      "right": [
+        "材质",
+        "版型",
+        "类型",
+        "衣长",
+        "袖长",
+        "裙长",
+        "裤长",
+        "长度",
+        "面料",
+        "颜色"
+      ]
+    }
+  },
+  "generation_differences": {
+    "do_sample": {
+      "left": false,
+      "right": true
+    },
+    "max_new_tokens": {
+      "left": 256,
+      "right": 96
+    },
+    "no_repeat_ngram_size": {
+      "left": 0,
+      "right": 3
+    },
+    "repetition_penalty": {
+      "left": 1.0,
+      "right": 1.15
+    },
+    "temperature": {
+      "left": 1.0,
+      "right": 0.75
+    },
+    "top_k": {
+      "left": 50,
+      "right": 0
+    },
+    "top_p": {
+      "left": 1.0,
+      "right": 0.9
+    }
+  },
+  "compared_samples": 200,
+  "selection": "first shared line numbers, ascending",
+  "left_only": 0,
+  "right_only": 0,
+  "overall": {
+    "left": {
+      "samples": 200,
+      "attribute_hits": {
+        "mean": 3.52,
+        "n": 200
+      },
+      "attribute_count": {
+        "mean": 7.34,
+        "n": 200
+      },
+      "key_attribute_hits": {
+        "mean": 1.58,
+        "n": 200
+      },
+      "key_attribute_count": {
+        "mean": 2.67,
+        "n": 200
+      },
+      "literal_coverage": {
+        "mean": 0.5163400974025975,
+        "n": 200
+      },
+      "key_literal_coverage": {
+        "mean": 0.5842499999999999,
+        "n": 200
+      },
+      "all_attributes_covered": {
+        "mean": 0.065,
+        "n": 200
+      },
+      "repeated_char_4gram_ratio": {
+        "mean": 0.4779178159064066,
+        "n": 200
+      },
+      "repeated_token_4gram_ratio": {
+        "mean": 0.4639638696644455,
+        "n": 200
+      },
+      "loop": {
+        "mean": 0.375,
+        "n": 200
+      },
+      "eos_normal": {
+        "mean": 0.705,
+        "n": 200
+      },
+      "char_length": {
+        "mean": 137.73,
+        "n": 200
+      },
+      "token_length": {
+        "mean": 122.685,
+        "n": 200
+      },
+      "literal_coverage_micro": 0.47956403269754766,
+      "key_literal_coverage_micro": 0.5917602996254682
+    },
+    "right": {
+      "samples": 200,
+      "attribute_hits": {
+        "mean": 1.085,
+        "n": 200
+      },
+      "attribute_count": {
+        "mean": 7.34,
+        "n": 200
+      },
+      "key_attribute_hits": {
+        "mean": 0.455,
+        "n": 200
+      },
+      "key_attribute_count": {
+        "mean": 2.67,
+        "n": 200
+      },
+      "literal_coverage": {
+        "mean": 0.16657160894660894,
+        "n": 200
+      },
+      "key_literal_coverage": {
+        "mean": 0.17808333333333334,
+        "n": 200
+      },
+      "all_attributes_covered": {
+        "mean": 0.0,
+        "n": 200
+      },
+      "repeated_char_4gram_ratio": {
+        "mean": 0.0005641821986823513,
+        "n": 200
+      },
+      "repeated_token_4gram_ratio": {
+        "mean": 0.0,
+        "n": 200
+      },
+      "loop": {
+        "mean": 0.0,
+        "n": 200
+      },
+      "eos_normal": {
+        "mean": 0.41,
+        "n": 200
+      },
+      "char_length": {
+        "mean": 92.075,
+        "n": 200
+      },
+      "token_length": {
+        "mean": 89.78,
+        "n": 200
+      },
+      "literal_coverage_micro": 0.1478201634877384,
+      "key_literal_coverage_micro": 0.1704119850187266
+    }
+  },
+  "by_input_style": {
+    "natural": {
+      "left": {
+        "samples": 100,
+        "attribute_hits": {
+          "mean": 3.29,
+          "n": 100
+        },
+        "attribute_count": {
+          "mean": 7.34,
+          "n": 100
+        },
+        "key_attribute_hits": {
+          "mean": 1.53,
+          "n": 100
+        },
+        "key_attribute_count": {
+          "mean": 2.67,
+          "n": 100
+        },
+        "literal_coverage": {
+          "mean": 0.48407882395382396,
+          "n": 100
+        },
+        "key_literal_coverage": {
+          "mean": 0.568,
+          "n": 100
+        },
+        "all_attributes_covered": {
+          "mean": 0.05,
+          "n": 100
+        },
+        "repeated_char_4gram_ratio": {
+          "mean": 0.5119938468488354,
+          "n": 100
+        },
+        "repeated_token_4gram_ratio": {
+          "mean": 0.49726495664649706,
+          "n": 100
+        },
+        "loop": {
+          "mean": 0.41,
+          "n": 100
+        },
+        "eos_normal": {
+          "mean": 0.65,
+          "n": 100
+        },
+        "char_length": {
+          "mean": 152.58,
+          "n": 100
+        },
+        "token_length": {
+          "mean": 132.88,
+          "n": 100
+        },
+        "literal_coverage_micro": 0.4482288828337875,
+        "key_literal_coverage_micro": 0.5730337078651685
+      },
+      "right": {
+        "samples": 100,
+        "attribute_hits": {
+          "mean": 1.08,
+          "n": 100
+        },
+        "attribute_count": {
+          "mean": 7.34,
+          "n": 100
+        },
+        "key_attribute_hits": {
+          "mean": 0.4,
+          "n": 100
+        },
+        "key_attribute_count": {
+          "mean": 2.67,
+          "n": 100
+        },
+        "literal_coverage": {
+          "mean": 0.16754689754689753,
+          "n": 100
+        },
+        "key_literal_coverage": {
+          "mean": 0.15783333333333333,
+          "n": 100
+        },
+        "all_attributes_covered": {
+          "mean": 0.0,
+          "n": 100
+        },
+        "repeated_char_4gram_ratio": {
+          "mean": 0.0007740070365714149,
+          "n": 100
+        },
+        "repeated_token_4gram_ratio": {
+          "mean": 0.0,
+          "n": 100
+        },
+        "loop": {
+          "mean": 0.0,
+          "n": 100
+        },
+        "eos_normal": {
+          "mean": 0.4,
+          "n": 100
+        },
+        "char_length": {
+          "mean": 91.8,
+          "n": 100
+        },
+        "token_length": {
+          "mean": 89.62,
+          "n": 100
+        },
+        "literal_coverage_micro": 0.14713896457765668,
+        "key_literal_coverage_micro": 0.149812734082397
+      }
+    },
+    "structured": {
+      "left": {
+        "samples": 100,
+        "attribute_hits": {
+          "mean": 3.75,
+          "n": 100
+        },
+        "attribute_count": {
+          "mean": 7.34,
+          "n": 100
+        },
+        "key_attribute_hits": {
+          "mean": 1.63,
+          "n": 100
+        },
+        "key_attribute_count": {
+          "mean": 2.67,
+          "n": 100
+        },
+        "literal_coverage": {
+          "mean": 0.5486013708513708,
+          "n": 100
+        },
+        "key_literal_coverage": {
+          "mean": 0.6004999999999999,
+          "n": 100
+        },
+        "all_attributes_covered": {
+          "mean": 0.08,
+          "n": 100
+        },
+        "repeated_char_4gram_ratio": {
+          "mean": 0.44384178496397786,
+          "n": 100
+        },
+        "repeated_token_4gram_ratio": {
+          "mean": 0.430662782682394,
+          "n": 100
+        },
+        "loop": {
+          "mean": 0.34,
+          "n": 100
+        },
+        "eos_normal": {
+          "mean": 0.76,
+          "n": 100
+        },
+        "char_length": {
+          "mean": 122.88,
+          "n": 100
+        },
+        "token_length": {
+          "mean": 112.49,
+          "n": 100
+        },
+        "literal_coverage_micro": 0.510899182561308,
+        "key_literal_coverage_micro": 0.6104868913857678
+      },
+      "right": {
+        "samples": 100,
+        "attribute_hits": {
+          "mean": 1.09,
+          "n": 100
+        },
+        "attribute_count": {
+          "mean": 7.34,
+          "n": 100
+        },
+        "key_attribute_hits": {
+          "mean": 0.51,
+          "n": 100
+        },
+        "key_attribute_count": {
+          "mean": 2.67,
+          "n": 100
+        },
+        "literal_coverage": {
+          "mean": 0.16559632034632035,
+          "n": 100
+        },
+        "key_literal_coverage": {
+          "mean": 0.19833333333333333,
+          "n": 100
+        },
+        "all_attributes_covered": {
+          "mean": 0.0,
+          "n": 100
+        },
+        "repeated_char_4gram_ratio": {
+          "mean": 0.0003543573607932875,
+          "n": 100
+        },
+        "repeated_token_4gram_ratio": {
+          "mean": 0.0,
+          "n": 100
+        },
+        "loop": {
+          "mean": 0.0,
+          "n": 100
+        },
+        "eos_normal": {
+          "mean": 0.42,
+          "n": 100
+        },
+        "char_length": {
+          "mean": 92.35,
+          "n": 100
+        },
+        "token_length": {
+          "mean": 89.94,
+          "n": 100
+        },
+        "literal_coverage_micro": 0.14850136239782016,
+        "key_literal_coverage_micro": 0.19101123595505617
+      }
+    }
+  },
+  "examples": [
+    {
+      "line_number": 1,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "商品属性：类型#裙*版型#宽松*风格#文艺*裙下摆#压褶*裙长#连衣裙"
+        }
+      ],
+      "reference": "将娇甜可人的粉，与洋气热烈的大红完美碰撞，便将连衣裙突兀的视觉冲击感带出来了，一下子就捕获了别人的聚焦视线；前襟特意打造的压褶细节感很强，配合清雅脱俗的提花装点，瞬间将潜在的女性柔情通通展现；富有包容性的宽松廓形，让身材稍胖的妹纸，也能穿出苗条的感觉，行走间文艺气质十足。",
+      "left": {
+        "output": "这款连衣裙采用了宽松的版型设计，穿着舒适，穿着舒适。宽松的版型设计，穿着舒适，穿着舒适。腰部的压褶设计，穿着舒适，穿着舒适。",
+        "metrics": {
+          "attribute_hits": 4,
+          "attribute_count": 5,
+          "key_attribute_hits": 3,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.8,
+          "key_literal_coverage": 1.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.4576271186440678,
+          "repeated_token_4gram_ratio": 0.37735849056603776,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 62,
+          "token_length": 56,
+          "missing_attributes": [
+            [
+              "风格",
+              "文艺"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      },
+      "right": {
+        "output": "舒适的a字裙款式，营造出轻盈清爽的气质，甜美可爱的款型设计，显得非常优雅迷人，给人以暖心的感觉。撞色条纹，搭配上后背绳的设计，增添了点缀感，让整体呈现自然的亮丽风情。",
+        "metrics": {
+          "attribute_hits": 1,
+          "attribute_count": 5,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.2,
+          "key_literal_coverage": 0.3333333333333333,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 83,
+          "token_length": 81,
+          "missing_attributes": [
+            [
+              "版型",
+              "宽松"
+            ],
+            [
+              "风格",
+              "文艺"
+            ],
+            [
+              "裙下摆",
+              "压褶"
+            ],
+            [
+              "裙长",
+              "连衣裙"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      }
+    },
+    {
+      "line_number": 2,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "请根据以下商品信息生成一段中文电商广告文案：类型为裙，版型为宽松，风格为文艺，裙下摆为压褶，裙长为连衣裙。"
+        }
+      ],
+      "reference": "将娇甜可人的粉，与洋气热烈的大红完美碰撞，便将连衣裙突兀的视觉冲击感带出来了，一下子就捕获了别人的聚焦视线；前襟特意打造的压褶细节感很强，配合清雅脱俗的提花装点，瞬间将潜在的女性柔情通通展现；富有包容性的宽松廓形，让身材稍胖的妹纸，也能穿出苗条的感觉，行走间文艺气质十足。",
+      "left": {
+        "output": "这款连衣裙采用了宽松的版型设计，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿",
+        "metrics": {
+          "attribute_hits": 3,
+          "attribute_count": 5,
+          "key_attribute_hits": 3,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.6,
+          "key_literal_coverage": 1.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.9363057324840764,
+          "repeated_token_4gram_ratio": 0.9288537549407114,
+          "loop": true,
+          "eos_normal": false,
+          "char_length": 317,
+          "token_length": 256,
+          "missing_attributes": [
+            [
+              "风格",
+              "文艺"
+            ],
+            [
+              "裙下摆",
+              "压褶"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      },
+      "right": {
+        "output": "舒适的a字裙款式，正面的圆形设计，可以很好的展现出少女的娇俏风范。同时在腰部加上包边小拉链，不仅美观大方，而且还能显瘦显高挑。",
+        "metrics": {
+          "attribute_hits": 1,
+          "attribute_count": 5,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.2,
+          "key_literal_coverage": 0.3333333333333333,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 63,
+          "token_length": 62,
+          "missing_attributes": [
+            [
+              "版型",
+              "宽松"
+            ],
+            [
+              "风格",
+              "文艺"
+            ],
+            [
+              "裙下摆",
+              "压褶"
+            ],
+            [
+              "裙长",
+              "连衣裙"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      }
+    },
+    {
+      "line_number": 3,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "商品属性：类型#上衣*版型#宽松*版型#显瘦*颜色#灰色*风格#街头*风格#清新*图案#条纹*衣样式#卫衣*衣长#短款*衣款式#抽绳*衣款式#连帽"
+        }
+      ],
+      "reference": "这款卫衣是经典的灰色款，色调清新柔和，上身更显肤色白皙！宽松的短款设计，对身材的包容性更大，上身遮肉显瘦。舒适的连帽设计，领口采用气眼抽绳的设计，上身实力减龄。衣身下摆和袖口处，采用彩色亮丽的条纹装饰，更显时髦率性的街头范儿！",
+      "left": {
+        "output": "这款卫衣采用了宽松的版型设计，穿着舒适，穿着舒适。宽松的版型设计，穿着舒适，穿着舒适。宽松的版型设计，穿着舒适，穿着舒适。",
+        "metrics": {
+          "attribute_hits": 2,
+          "attribute_count": 11,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 5,
+          "literal_coverage": 0.18181818181818182,
+          "key_literal_coverage": 0.2,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.603448275862069,
+          "repeated_token_4gram_ratio": 0.5833333333333334,
+          "loop": true,
+          "eos_normal": true,
+          "char_length": 61,
+          "token_length": 51,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "版型",
+              "显瘦"
+            ],
+            [
+              "颜色",
+              "灰色"
+            ],
+            [
+              "风格",
+              "街头"
+            ],
+            [
+              "风格",
+              "清新"
+            ],
+            [
+              "图案",
+              "条纹"
+            ],
+            [
+              "衣长",
+              "短款"
+            ],
+            [
+              "衣款式",
+              "抽绳"
+            ],
+            [
+              "衣款式",
+              "连帽"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      },
+      "right": {
+        "output": "白色条纱连帼卫衣，不仅轻盈舒适透气，还能增强人体的吸湿性，带来舒适的穿着体验。v字领口采用了黑色作为底色设计，整体造型时尚别致，彰显出女性的清新与优雅感。圆形的包边设计，具有视觉冲击力，散发出小女孩的欧美魅力",
+        "metrics": {
+          "attribute_hits": 2,
+          "attribute_count": 11,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 5,
+          "literal_coverage": 0.18181818181818182,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": false,
+          "char_length": 104,
+          "token_length": 96,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "版型",
+              "宽松"
+            ],
+            [
+              "版型",
+              "显瘦"
+            ],
+            [
+              "颜色",
+              "灰色"
+            ],
+            [
+              "风格",
+              "街头"
+            ],
+            [
+              "图案",
+              "条纹"
+            ],
+            [
+              "衣长",
+              "短款"
+            ],
+            [
+              "衣款式",
+              "抽绳"
+            ],
+            [
+              "衣款式",
+              "连帽"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      }
+    },
+    {
+      "line_number": 4,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "请根据以下商品信息生成一段中文电商广告文案：类型为上衣，版型为宽松、显瘦，颜色为灰色，风格为街头、清新，图案为条纹，衣样式为卫衣，衣长为短款，衣款式为抽绳、连帽。"
+        }
+      ],
+      "reference": "这款卫衣是经典的灰色款，色调清新柔和，上身更显肤色白皙！宽松的短款设计，对身材的包容性更大，上身遮肉显瘦。舒适的连帽设计，领口采用气眼抽绳的设计，上身实力减龄。衣身下摆和袖口处，采用彩色亮丽的条纹装饰，更显时髦率性的街头范儿！",
+      "left": {
+        "output": "这款卫衣采用了宽松的版型设计，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适",
+        "metrics": {
+          "attribute_hits": 2,
+          "attribute_count": 11,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 5,
+          "literal_coverage": 0.18181818181818182,
+          "key_literal_coverage": 0.2,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.939873417721519,
+          "repeated_token_4gram_ratio": 0.9367588932806324,
+          "loop": true,
+          "eos_normal": false,
+          "char_length": 319,
+          "token_length": 256,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "版型",
+              "显瘦"
+            ],
+            [
+              "颜色",
+              "灰色"
+            ],
+            [
+              "风格",
+              "街头"
+            ],
+            [
+              "风格",
+              "清新"
+            ],
+            [
+              "图案",
+              "条纹"
+            ],
+            [
+              "衣长",
+              "短款"
+            ],
+            [
+              "衣款式",
+              "抽绳"
+            ],
+            [
+              "衣款式",
+              "连帽"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      },
+      "right": {
+        "output": "白色的短款卫衣是春季必备的单品之一。这一件短款卫裙采用条纱打底的点缀，穿着舒适，对身材的收获感极强，而且经典也不失浪漫之美。下摆上拉长了肩部线条，修饰脸部线叶。而宽松版型更显身材，袖口处的",
+        "metrics": {
+          "attribute_hits": 3,
+          "attribute_count": 11,
+          "key_attribute_hits": 2,
+          "key_attribute_count": 5,
+          "literal_coverage": 0.2727272727272727,
+          "key_literal_coverage": 0.4,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": false,
+          "char_length": 94,
+          "token_length": 96,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "版型",
+              "显瘦"
+            ],
+            [
+              "颜色",
+              "灰色"
+            ],
+            [
+              "风格",
+              "街头"
+            ],
+            [
+              "风格",
+              "清新"
+            ],
+            [
+              "图案",
+              "条纹"
+            ],
+            [
+              "衣款式",
+              "抽绳"
+            ],
+            [
+              "衣款式",
+              "连帽"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      }
+    },
+    {
+      "line_number": 5,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "商品属性：类型#裤*风格#简约*风格#ol*裤型#阔腿裤"
+        }
+      ],
+      "reference": "阔腿裤是人手必备一条的百搭单品，这款阔腿裤整体造型简约大方，简单百搭的同时时髦又自然，带了气质的ol感。垂感极佳的麻纱面料光滑亲肤，走起来飘逸显气质，气场自动释放。",
+      "left": {
+        "output": "这款裤子采用了简约的阔腿裤，采用了阔腿裤的版型，穿着舒适又不失时尚感。裤脚采用了阔腿裤的版型，穿着舒适又不失时尚感。",
+        "metrics": {
+          "attribute_hits": 3,
+          "attribute_count": 4,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 1,
+          "literal_coverage": 0.75,
+          "key_literal_coverage": 1.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.32727272727272727,
+          "repeated_token_4gram_ratio": 0.3392857142857143,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 58,
+          "token_length": 59,
+          "missing_attributes": [
+            [
+              "风格",
+              "ol"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      },
+      "right": {
+        "output": "舒适的阔脚裤，充满了女人味与个性的时尚感，展现出少女的娇俏风范。经典的阑珠立体剪裁，能够穿出绅士的气场，提升曼妙身材比例。采用上等的小黑点设计，让整体呈现出了优美的裤身线条。裤脚的撞色设计，打破了",
+        "metrics": {
+          "attribute_hits": 1,
+          "attribute_count": 4,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 1,
+          "literal_coverage": 0.25,
+          "key_literal_coverage": 1.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": false,
+          "char_length": 98,
+          "token_length": 96,
+          "missing_attributes": [
+            [
+              "风格",
+              "简约"
+            ],
+            [
+              "风格",
+              "ol"
+            ],
+            [
+              "裤型",
+              "阔腿裤"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      }
+    },
+    {
+      "line_number": 6,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "请根据以下商品信息生成一段中文电商广告文案：类型为裤，风格为简约、ol，裤型为阔腿裤。"
+        }
+      ],
+      "reference": "阔腿裤是人手必备一条的百搭单品，这款阔腿裤整体造型简约大方，简单百搭的同时时髦又自然，带了气质的ol感。垂感极佳的麻纱面料光滑亲肤，走起来飘逸显气质，气场自动释放。",
+      "left": {
+        "output": "这款阔腿裤采用了优质的面料，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿",
+        "metrics": {
+          "attribute_hits": 2,
+          "attribute_count": 4,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 1,
+          "literal_coverage": 0.5,
+          "key_literal_coverage": 1.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.9423076923076923,
+          "repeated_token_4gram_ratio": 0.9288537549407114,
+          "loop": true,
+          "eos_normal": false,
+          "char_length": 315,
+          "token_length": 256,
+          "missing_attributes": [
+            [
+              "风格",
+              "简约"
+            ],
+            [
+              "风格",
+              "ol"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      },
+      "right": {
+        "output": "舒适的a字裙摆，营造出轻盈清爽的感觉，甜美可爱的款式设计，显得非常优雅迷人，不仅可以单穿，还能凸显你的修长身材。",
+        "metrics": {
+          "attribute_hits": 0,
+          "attribute_count": 4,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 1,
+          "literal_coverage": 0.0,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 56,
+          "token_length": 55,
+          "missing_attributes": [
+            [
+              "类型",
+              "裤"
+            ],
+            [
+              "风格",
+              "简约"
+            ],
+            [
+              "风格",
+              "ol"
+            ],
+            [
+              "裤型",
+              "阔腿裤"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      }
+    },
+    {
+      "line_number": 7,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "商品属性：类型#上衣*版型#宽松*风格#休闲*图案#条纹*衣样式#衬衫*衣袖型#落肩袖"
+        }
+      ],
+      "reference": "衬衣可以说是日常穿搭中最为实穿的单品了，无论是怎么样搭配都能有不错的感觉。而条纹更是经典款的元素，分分钟就能带出俏皮又随性的味道，更具灵动迷人的休闲范儿。偏宽松的版型设计配合落肩袖型的设计可以修饰肩部曲线，更能带出慵懒随性范儿，对于微胖的小仙女也是敲友好。",
+      "left": {
+        "output": "这款衬衫采用了宽松的落肩袖设计，穿着舒适又不失气质。宽松的落肩袖设计，穿着舒适又不失气质。裤子采用了落肩袖的设计，穿着舒适又不失气质。",
+        "metrics": {
+          "attribute_hits": 3,
+          "attribute_count": 6,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 2,
+          "literal_coverage": 0.5,
+          "key_literal_coverage": 0.5,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.40625,
+          "repeated_token_4gram_ratio": 0.390625,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 67,
+          "token_length": 67,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "风格",
+              "休闲"
+            ],
+            [
+              "图案",
+              "条纹"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      },
+      "right": {
+        "output": "白色条纱连衣裙，选用轻盈清爽的针织面料打造而成，穿着舒适透气，结合立体剪裁，让你轻松穿出绅士的气息，也能够显得十分帅气又好看。收腰的翻领设计，修饰脸部线条，更显俏皮可爱。前襟的设计，让女",
+        "metrics": {
+          "attribute_hits": 0,
+          "attribute_count": 6,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 2,
+          "literal_coverage": 0.0,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": false,
+          "char_length": 93,
+          "token_length": 96,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "版型",
+              "宽松"
+            ],
+            [
+              "风格",
+              "休闲"
+            ],
+            [
+              "图案",
+              "条纹"
+            ],
+            [
+              "衣样式",
+              "衬衫"
+            ],
+            [
+              "衣袖型",
+              "落肩袖"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      }
+    },
+    {
+      "line_number": 8,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "请根据以下商品信息生成一段中文电商广告文案：类型为上衣，版型为宽松，风格为休闲，图案为条纹，衣样式为衬衫，衣袖型为落肩袖。"
+        }
+      ],
+      "reference": "衬衣可以说是日常穿搭中最为实穿的单品了，无论是怎么样搭配都能有不错的感觉。而条纹更是经典款的元素，分分钟就能带出俏皮又随性的味道，更具灵动迷人的休闲范儿。偏宽松的版型设计配合落肩袖型的设计可以修饰肩部曲线，更能带出慵懒随性范儿，对于微胖的小仙女也是敲友好。",
+      "left": {
+        "output": "这款衬衫采用了宽松的版型设计，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿",
+        "metrics": {
+          "attribute_hits": 2,
+          "attribute_count": 6,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 2,
+          "literal_coverage": 0.3333333333333333,
+          "key_literal_coverage": 0.5,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.939297124600639,
+          "repeated_token_4gram_ratio": 0.9288537549407114,
+          "loop": true,
+          "eos_normal": false,
+          "char_length": 316,
+          "token_length": 256,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "风格",
+              "休闲"
+            ],
+            [
+              "图案",
+              "条纹"
+            ],
+            [
+              "衣袖型",
+              "落肩袖"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      },
+      "right": {
+        "output": "白色开叉领的设计，充满了女人味与个性的时尚感，展现出少女的魅力。腰部剪裁优雅又立体，小翻盖设计，更具范儿，修饰颈部线条显高挑。",
+        "metrics": {
+          "attribute_hits": 0,
+          "attribute_count": 6,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 2,
+          "literal_coverage": 0.0,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 63,
+          "token_length": 62,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "版型",
+              "宽松"
+            ],
+            [
+              "风格",
+              "休闲"
+            ],
+            [
+              "图案",
+              "条纹"
+            ],
+            [
+              "衣样式",
+              "衬衫"
+            ],
+            [
+              "衣袖型",
+              "落肩袖"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      }
+    },
+    {
+      "line_number": 9,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "商品属性：类型#裙*材质#雪纺*风格#休闲*裙下摆#花边*裙长#半身裙*裙领型#v领*裙款式#拼接*裙款式#吊带"
+        }
+      ],
+      "reference": "优美而动感的上衣。采用半透的雪纺材质工艺，深黑色系给您以非常魅惑的穿着体验，内里需要搭配深黑色的吊带。花边v字领口连襟拼接，举手投足更加优雅迷人，适合搭配各种半身裙和休闲长裤。",
+      "left": {
+        "output": "这款半身裙采用了优质的雪纺面料，手感柔软舒适，穿着舒适透气。腰部采用了精致的花边拼接，让整体看起来更加的休闲。腰部采用了优质的雪纺面料，让裙子更加的舒适透气，同时又不失优雅气质。",
+        "metrics": {
+          "attribute_hits": 6,
+          "attribute_count": 8,
+          "key_attribute_hits": 3,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.75,
+          "key_literal_coverage": 1.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.13953488372093023,
+          "repeated_token_4gram_ratio": 0.13953488372093023,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 89,
+          "token_length": 89,
+          "missing_attributes": [
+            [
+              "裙领型",
+              "v领"
+            ],
+            [
+              "裙款式",
+              "吊带"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      },
+      "right": {
+        "output": "这款超大尺寸的a字半身短裤，清爽又舒适，甜美可爱的款式设计更显高挑娇小，不仅可以单穿，还能增加衣身的层次感，别致的黑白刺绣点缀其上，是休闡帅气的亮点。宽宽的设计，能凸显出女性优雅的气质。",
+        "metrics": {
+          "attribute_hits": 0,
+          "attribute_count": 8,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.0,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 93,
+          "token_length": 94,
+          "missing_attributes": [
+            [
+              "类型",
+              "裙"
+            ],
+            [
+              "材质",
+              "雪纺"
+            ],
+            [
+              "风格",
+              "休闲"
+            ],
+            [
+              "裙下摆",
+              "花边"
+            ],
+            [
+              "裙长",
+              "半身裙"
+            ],
+            [
+              "裙领型",
+              "v领"
+            ],
+            [
+              "裙款式",
+              "拼接"
+            ],
+            [
+              "裙款式",
+              "吊带"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      }
+    },
+    {
+      "line_number": 10,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "请根据以下商品信息生成一段中文电商广告文案：类型为裙，材质为雪纺，风格为休闲，裙下摆为花边，裙长为半身裙，裙领型为v领，裙款式为拼接、吊带。"
+        }
+      ],
+      "reference": "优美而动感的上衣。采用半透的雪纺材质工艺，深黑色系给您以非常魅惑的穿着体验，内里需要搭配深黑色的吊带。花边v字领口连襟拼接，举手投足更加优雅迷人，适合搭配各种半身裙和休闲长裤。",
+      "left": {
+        "output": "这款半身裙采用了雪纺面料，柔软舒适，透气性好，穿着舒适。腰部采用了优质的雪纺面料，穿着舒适，穿着舒适。腰部采用了拼接的吊带设计，穿着舒适，穿着舒适。",
+        "metrics": {
+          "attribute_hits": 5,
+          "attribute_count": 8,
+          "key_attribute_hits": 3,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.625,
+          "key_literal_coverage": 1.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.28169014084507044,
+          "repeated_token_4gram_ratio": 0.2571428571428571,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 74,
+          "token_length": 73,
+          "missing_attributes": [
+            [
+              "风格",
+              "休闲"
+            ],
+            [
+              "裙下摆",
+              "花边"
+            ],
+            [
+              "裙领型",
+              "v领"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      },
+      "right": {
+        "output": "白色a字的连衣裙正面的出口设计，可以很好的展现女性甜美的气息，同时凸显出女性的优雅气质，简约又不失时尚感。宽大的一对连衣袖搭配，十分的休闣又潮范。领口是蝴蝶结拼插裙内置了经典双排扣的设计，轻松彰显出别",
+        "metrics": {
+          "attribute_hits": 1,
+          "attribute_count": 8,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.125,
+          "key_literal_coverage": 0.3333333333333333,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": false,
+          "char_length": 100,
+          "token_length": 96,
+          "missing_attributes": [
+            [
+              "材质",
+              "雪纺"
+            ],
+            [
+              "风格",
+              "休闲"
+            ],
+            [
+              "裙下摆",
+              "花边"
+            ],
+            [
+              "裙长",
+              "半身裙"
+            ],
+            [
+              "裙领型",
+              "v领"
+            ],
+            [
+              "裙款式",
+              "拼接"
+            ],
+            [
+              "裙款式",
+              "吊带"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      }
+    },
+    {
+      "line_number": 11,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "商品属性：类型#上衣*版型#宽松*材质#棉*风格#性感*图案#条纹*衣样式#衬衫*衣领型#v领"
+        }
+      ],
+      "reference": "蓝白的条纹从远处看仿佛就是一条靓丽的风景线，设计师将其融进衬衣的设计当中，并使用宽松的v领版型，微露锁骨的同时。将小性感的气息散发出来，精致又不失时尚感。而细腻的棉质面料的加入更是增添了舒适的体感，让穿搭更加时尚。",
+      "left": {
+        "output": "这款衬衫采用了宽松的版型，穿着舒适，穿着舒适。宽松的版型，穿着舒适，穿着舒适。v领的设计，修饰脖颈线条，修饰脖颈线条，修饰脖颈线条。",
+        "metrics": {
+          "attribute_hits": 3,
+          "attribute_count": 7,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.42857142857142855,
+          "key_literal_coverage": 0.3333333333333333,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.4126984126984127,
+          "repeated_token_4gram_ratio": 0.421875,
+          "loop": true,
+          "eos_normal": true,
+          "char_length": 66,
+          "token_length": 67,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "材质",
+              "棉"
+            ],
+            [
+              "风格",
+              "性感"
+            ],
+            [
+              "图案",
+              "条纹"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      },
+      "right": {
+        "output": "白色条纱连衣裙，选用轻薄的棉麻面料打造而成，时髦舒适显瘦，穿着舒适，小亮眼的同时更能凸显出别致的视觉效果。黑色的底色与纯白的颜色搭配，是相得益彰，更显出女人味。",
+        "metrics": {
+          "attribute_hits": 1,
+          "attribute_count": 7,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.14285714285714285,
+          "key_literal_coverage": 0.3333333333333333,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 80,
+          "token_length": 82,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "版型",
+              "宽松"
+            ],
+            [
+              "风格",
+              "性感"
+            ],
+            [
+              "图案",
+              "条纹"
+            ],
+            [
+              "衣样式",
+              "衬衫"
+            ],
+            [
+              "衣领型",
+              "v领"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      }
+    },
+    {
+      "line_number": 12,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "请根据以下商品信息生成一段中文电商广告文案：类型为上衣，版型为宽松，材质为棉，风格为性感，图案为条纹，衣样式为衬衫，衣领型为v领。"
+        }
+      ],
+      "reference": "蓝白的条纹从远处看仿佛就是一条靓丽的风景线，设计师将其融进衬衣的设计当中，并使用宽松的v领版型，微露锁骨的同时。将小性感的气息散发出来，精致又不失时尚感。而细腻的棉质面料的加入更是增添了舒适的体感，让穿搭更加时尚。",
+      "left": {
+        "output": "这款衬衫采用了宽松的版型设计，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿",
+        "metrics": {
+          "attribute_hits": 2,
+          "attribute_count": 7,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.2857142857142857,
+          "key_literal_coverage": 0.3333333333333333,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.939297124600639,
+          "repeated_token_4gram_ratio": 0.9288537549407114,
+          "loop": true,
+          "eos_normal": false,
+          "char_length": 316,
+          "token_length": 256,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "材质",
+              "棉"
+            ],
+            [
+              "风格",
+              "性感"
+            ],
+            [
+              "图案",
+              "条纹"
+            ],
+            [
+              "衣领型",
+              "v领"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      },
+      "right": {
+        "output": "白色条纶面料，充满了女人味与柔美。肩部的设计是非常的舒适的棕色的设计，显得非常优雅又立体，小亮点能够穿出自信和高贵的气质。经典百搭的黑色裁剪，上身更能凸显你的女性优美韵味。裙摆处采用双侧的字母印花设计，可让女",
+        "metrics": {
+          "attribute_hits": 0,
+          "attribute_count": 7,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.0,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": false,
+          "char_length": 104,
+          "token_length": 96,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "版型",
+              "宽松"
+            ],
+            [
+              "材质",
+              "棉"
+            ],
+            [
+              "风格",
+              "性感"
+            ],
+            [
+              "图案",
+              "条纹"
+            ],
+            [
+              "衣样式",
+              "衬衫"
+            ],
+            [
+              "衣领型",
+              "v领"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      }
+    },
+    {
+      "line_number": 13,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "商品属性：类型#上衣*材质#蚕丝*风格#宫廷*风格#青春*衣样式#衬衫"
+        }
+      ],
+      "reference": "这款处处流露高贵典雅的桑蚕丝衬衣，尽显女性的优雅魅力，给人端庄大气的宫廷范儿，设计感以及质感完全不输大牌。衣袖采用透视真丝材质，舒适透气触感柔顺，给你清爽的体验。微喇的袖口尽显甜美可人，成熟中含有青春的气息。",
+      "left": {
+        "output": "这款衬衫采用了优质的蚕丝面料，柔软舒适，穿着舒适，穿着舒适。衬衫的版型设计，修饰身材比例，穿着舒适，穿着舒适。",
+        "metrics": {
+          "attribute_hits": 2,
+          "attribute_count": 5,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 2,
+          "literal_coverage": 0.4,
+          "key_literal_coverage": 0.5,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.23076923076923078,
+          "repeated_token_4gram_ratio": 0.18,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 55,
+          "token_length": 53,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "风格",
+              "宫廷"
+            ],
+            [
+              "风格",
+              "青春"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      },
+      "right": {
+        "output": "白色衬衣领设计，充满了清新优雅的风范。这款衬袖型的撞色调简约又大气，带给您一种与众不同的时尚穿搭体验。精致的剪裁和精细的做工,让纱质更加牢固耐看。",
+        "metrics": {
+          "attribute_hits": 0,
+          "attribute_count": 5,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 2,
+          "literal_coverage": 0.0,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 73,
+          "token_length": 72,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "材质",
+              "蚕丝"
+            ],
+            [
+              "风格",
+              "宫廷"
+            ],
+            [
+              "风格",
+              "青春"
+            ],
+            [
+              "衣样式",
+              "衬衫"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      }
+    },
+    {
+      "line_number": 14,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "请根据以下商品信息生成一段中文电商广告文案：类型为上衣，材质为蚕丝，风格为宫廷、青春，衣样式为衬衫。"
+        }
+      ],
+      "reference": "这款处处流露高贵典雅的桑蚕丝衬衣，尽显女性的优雅魅力，给人端庄大气的宫廷范儿，设计感以及质感完全不输大牌。衣袖采用透视真丝材质，舒适透气触感柔顺，给你清爽的体验。微喇的袖口尽显甜美可人，成熟中含有青春的气息。",
+      "left": {
+        "output": "这款衬衫采用了优质的蚕丝面料，柔软舒适，穿着舒适，穿着舒适。衬衫的版型设计，修饰颈部线条，穿着舒适，穿着舒适。",
+        "metrics": {
+          "attribute_hits": 2,
+          "attribute_count": 5,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 2,
+          "literal_coverage": 0.4,
+          "key_literal_coverage": 0.5,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.23076923076923078,
+          "repeated_token_4gram_ratio": 0.17647058823529413,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 55,
+          "token_length": 54,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "风格",
+              "宫廷"
+            ],
+            [
+              "风格",
+              "青春"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      },
+      "right": {
+        "output": "白色衬衣领设计，充满了清爽与雅致的感觉，展现出少女的娇俏风范。经典圆环型的版型，不仅能够体现出女性的自信和高贵气质，也可根据个人喜好自由选择搭配哦。其领口是蝴蝶结的样子设计，搭配蝟蜪裙更显青春活泼又百搭",
+        "metrics": {
+          "attribute_hits": 1,
+          "attribute_count": 5,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 2,
+          "literal_coverage": 0.2,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": false,
+          "char_length": 101,
+          "token_length": 96,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "材质",
+              "蚕丝"
+            ],
+            [
+              "风格",
+              "宫廷"
+            ],
+            [
+              "衣样式",
+              "衬衫"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      }
+    },
+    {
+      "line_number": 15,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "商品属性：类型#裙*材质#网纱*裙型#网纱裙*裙下摆#压褶*裙长#半身裙*裙款式#拼接*裙款式#不规则"
+        }
+      ],
+      "reference": "这款半身裙不同于其他网纱裙单一的版型，采用了不规则三层拼接，每一层的网纱都做了压褶处理，更好地展示了裙子的层次感，臀部有点大的妹子穿，可以遮住臀部的肉肉，亮点是腰部的腰封。腰封的也做了压褶处理，很好的修饰了腰身。",
+      "left": {
+        "output": "这款网纱裙采用网纱拼接设计，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，",
+        "metrics": {
+          "attribute_hits": 4,
+          "attribute_count": 7,
+          "key_attribute_hits": 2,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.5714285714285714,
+          "key_literal_coverage": 0.6666666666666666,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.9421221864951769,
+          "repeated_token_4gram_ratio": 0.924901185770751,
+          "loop": true,
+          "eos_normal": false,
+          "char_length": 314,
+          "token_length": 256,
+          "missing_attributes": [
+            [
+              "裙下摆",
+              "压褶"
+            ],
+            [
+              "裙长",
+              "半身裙"
+            ],
+            [
+              "裙款式",
+              "不规则"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      },
+      "right": {
+        "output": "这款开衫采用传统网纺面料制作的半身材质，展现出少女的娇俏风情。精致的网纱拼合体感，穿着舒适自在随意，轻松演绎女性优雅的气质。扣子设计，增加了腰线与内敛亮丽的线条，带给你修饰的同时又丰富层次感。",
+        "metrics": {
+          "attribute_hits": 1,
+          "attribute_count": 7,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.14285714285714285,
+          "key_literal_coverage": 0.3333333333333333,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 96,
+          "token_length": 95,
+          "missing_attributes": [
+            [
+              "类型",
+              "裙"
+            ],
+            [
+              "裙型",
+              "网纱裙"
+            ],
+            [
+              "裙下摆",
+              "压褶"
+            ],
+            [
+              "裙长",
+              "半身裙"
+            ],
+            [
+              "裙款式",
+              "拼接"
+            ],
+            [
+              "裙款式",
+              "不规则"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      }
+    },
+    {
+      "line_number": 16,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "请根据以下商品信息生成一段中文电商广告文案：类型为裙，材质为网纱，裙型为网纱裙，裙下摆为压褶，裙长为半身裙，裙款式为拼接、不规则。"
+        }
+      ],
+      "reference": "这款半身裙不同于其他网纱裙单一的版型，采用了不规则三层拼接，每一层的网纱都做了压褶处理，更好地展示了裙子的层次感，臀部有点大的妹子穿，可以遮住臀部的肉肉，亮点是腰部的腰封。腰封的也做了压褶处理，很好的修饰了腰身。",
+      "left": {
+        "output": "这款半身裙采用网纱拼接，穿着舒适，不挑身材，穿着舒适，穿着舒适，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，不挑身材，穿着舒适，",
+        "metrics": {
+          "attribute_hits": 4,
+          "attribute_count": 7,
+          "key_attribute_hits": 3,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.5714285714285714,
+          "key_literal_coverage": 1.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.9094488188976378,
+          "repeated_token_4gram_ratio": 0.9011857707509882,
+          "loop": true,
+          "eos_normal": false,
+          "char_length": 257,
+          "token_length": 256,
+          "missing_attributes": [
+            [
+              "裙型",
+              "网纱裙"
+            ],
+            [
+              "裙下摆",
+              "压褶"
+            ],
+            [
+              "裙款式",
+              "不规则"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      },
+      "right": {
+        "output": "这款开叉网纹收口设计，轻盈清爽，展现出少女的娇嫩风情。腰间的弹力带包裹着细腻柔软的竖条，穿起来会更加舒适自然，同时又十分遮肉。背后是扣子处理，塑形小巧精致。而宽边裁剪的拼接袖口，更",
+        "metrics": {
+          "attribute_hits": 1,
+          "attribute_count": 7,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 3,
+          "literal_coverage": 0.14285714285714285,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": false,
+          "char_length": 90,
+          "token_length": 96,
+          "missing_attributes": [
+            [
+              "类型",
+              "裙"
+            ],
+            [
+              "材质",
+              "网纱"
+            ],
+            [
+              "裙型",
+              "网纱裙"
+            ],
+            [
+              "裙下摆",
+              "压褶"
+            ],
+            [
+              "裙长",
+              "半身裙"
+            ],
+            [
+              "裙款式",
+              "不规则"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      }
+    },
+    {
+      "line_number": 17,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "商品属性：类型#上衣*风格#文艺*风格#青春*风格#潮*图案#撞色*衣样式#衬衫*衣领型#翻领*衣款式#拼接*衣款式#口袋"
+        }
+      ],
+      "reference": "充满文艺风格的衬衫，在经典的同时，又拥有活泼的设计元素。在右上方点缀了撞色的贴标，不但拥有了立体感，显得青春率性，而且也迎合了当下时尚潮流。采用翻领的领口设计，还可以凸显出干练的男性气质，尽显挺拔身姿。拼接了多个立体的大口袋，还可以凸显出男孩的率性魅力。",
+      "left": {
+        "output": "这款衬衫采用了撞色拼接设计，打破了传统的衬衫风格，更显时尚潮流。撞色拼接设计，更显潮流潮流。袖口的口袋设计，更显潮流潮流。",
+        "metrics": {
+          "attribute_hits": 5,
+          "attribute_count": 9,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 1,
+          "literal_coverage": 0.5555555555555556,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.1896551724137931,
+          "repeated_token_4gram_ratio": 0.23076923076923078,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 61,
+          "token_length": 68,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "风格",
+              "文艺"
+            ],
+            [
+              "风格",
+              "青春"
+            ],
+            [
+              "衣领型",
+              "翻领"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      },
+      "right": {
+        "output": "白色开襟的印花，营造出轻盈清爽的气质，甜美可爱的撞色调更显时尚大气，立体剪裁，柔软舒适穿着感满分！经典经典的拉链设计，彰显出纤细的小脸型，打造不规则的手臂线条。",
+        "metrics": {
+          "attribute_hits": 1,
+          "attribute_count": 9,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 1,
+          "literal_coverage": 0.1111111111111111,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 80,
+          "token_length": 80,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "风格",
+              "文艺"
+            ],
+            [
+              "风格",
+              "青春"
+            ],
+            [
+              "风格",
+              "潮"
+            ],
+            [
+              "衣样式",
+              "衬衫"
+            ],
+            [
+              "衣领型",
+              "翻领"
+            ],
+            [
+              "衣款式",
+              "拼接"
+            ],
+            [
+              "衣款式",
+              "口袋"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      }
+    },
+    {
+      "line_number": 18,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "请根据以下商品信息生成一段中文电商广告文案：类型为上衣，风格为文艺、青春、潮，图案为撞色，衣样式为衬衫，衣领型为翻领，衣款式为拼接、口袋。"
+        }
+      ],
+      "reference": "充满文艺风格的衬衫，在经典的同时，又拥有活泼的设计元素。在右上方点缀了撞色的贴标，不但拥有了立体感，显得青春率性，而且也迎合了当下时尚潮流。采用翻领的领口设计，还可以凸显出干练的男性气质，尽显挺拔身姿。拼接了多个立体的大口袋，还可以凸显出男孩的率性魅力。",
+      "left": {
+        "output": "这款衬衫采用了撞色拼接设计，打破了单调的单调感，展现出青春活力的气息。衣身采用了撞色拼接设计，打破了单调感，展现出文艺范儿。",
+        "metrics": {
+          "attribute_hits": 5,
+          "attribute_count": 9,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 1,
+          "literal_coverage": 0.5555555555555556,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.2711864406779661,
+          "repeated_token_4gram_ratio": 0.25862068965517243,
+          "loop": false,
+          "eos_normal": true,
+          "char_length": 62,
+          "token_length": 61,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "风格",
+              "潮"
+            ],
+            [
+              "衣领型",
+              "翻领"
+            ],
+            [
+              "衣款式",
+              "口袋"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      },
+      "right": {
+        "output": "白色的拼接印花，营造出轻盈清爽的夏季甜美感，让心情变得活力满满，结合立体剪裁，呈现出精致小提手的设计，展现别具一格的美感。</s> <s>根据标题生成商品文案：“我爱飞行动物”原创设计师海内外的“我喜欢在飞机上自由地飞",
+        "metrics": {
+          "attribute_hits": 1,
+          "attribute_count": 9,
+          "key_attribute_hits": 0,
+          "key_attribute_count": 1,
+          "literal_coverage": 0.1111111111111111,
+          "key_literal_coverage": 0.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": false,
+          "char_length": 109,
+          "token_length": 96,
+          "missing_attributes": [
+            [
+              "类型",
+              "上衣"
+            ],
+            [
+              "风格",
+              "文艺"
+            ],
+            [
+              "风格",
+              "青春"
+            ],
+            [
+              "风格",
+              "潮"
+            ],
+            [
+              "图案",
+              "撞色"
+            ],
+            [
+              "衣样式",
+              "衬衫"
+            ],
+            [
+              "衣领型",
+              "翻领"
+            ],
+            [
+              "衣款式",
+              "口袋"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      }
+    },
+    {
+      "line_number": 19,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "商品属性：类型#裤*版型#宽松*材质#混纺*材质#纤维*风格#街头*风格#简约*风格#休闲*风格#青春*风格#性感*裤口#小脚"
+        }
+      ],
+      "reference": "如今的休闲裤将经典与时尚结合，以束脚的工艺诠释着青春的率性感，同时街头感十足。这款由马克华菲推出弹性休闲束脚裤，采用经典的纤维混纺面料制成，整体的舒适度非常赞，穿着弹力十足。加之简约的小宽松版型的设计，穿着不挑身材，适合更多种身形的型男进行选择。",
+      "left": {
+        "output": "这款简约的休闲裤，采用了纤维混纺面料，穿着舒适透气，穿着舒适透气，穿着舒适。宽松的版型，穿着舒适，穿着舒适，穿着舒适。小脚裤的版型，穿着舒适，穿着舒适，穿着舒适，穿着舒适。",
+        "metrics": {
+          "attribute_hits": 7,
+          "attribute_count": 10,
+          "key_attribute_hits": 4,
+          "key_attribute_count": 4,
+          "literal_coverage": 0.7,
+          "key_literal_coverage": 1.0,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.4819277108433735,
+          "repeated_token_4gram_ratio": 0.4025974025974026,
+          "loop": true,
+          "eos_normal": true,
+          "char_length": 86,
+          "token_length": 80,
+          "missing_attributes": [
+            [
+              "风格",
+              "街头"
+            ],
+            [
+              "风格",
+              "青春"
+            ],
+            [
+              "风格",
+              "性感"
+            ]
+          ]
+        },
+        "finish_reason": "eos"
+      },
+      "right": {
+        "output": "舒适的a字裤款式，营造出轻盈清爽的感觉，搭配清爬条纱，带来活力感和舒适的穿着体验，给人以少女大方感的着装效果。经典百搭的添加上破洞的设计，穿起来更加干净利落。宽松的v领设计，修饰颈部线条，展现出女性的优美气质",
+        "metrics": {
+          "attribute_hits": 2,
+          "attribute_count": 10,
+          "key_attribute_hits": 2,
+          "key_attribute_count": 4,
+          "literal_coverage": 0.2,
+          "key_literal_coverage": 0.5,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": false,
+          "char_length": 104,
+          "token_length": 96,
+          "missing_attributes": [
+            [
+              "材质",
+              "混纺"
+            ],
+            [
+              "材质",
+              "纤维"
+            ],
+            [
+              "风格",
+              "街头"
+            ],
+            [
+              "风格",
+              "简约"
+            ],
+            [
+              "风格",
+              "休闲"
+            ],
+            [
+              "风格",
+              "青春"
+            ],
+            [
+              "风格",
+              "性感"
+            ],
+            [
+              "裤口",
+              "小脚"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      }
+    },
+    {
+      "line_number": 20,
+      "messages": [
+        {
+          "role": "system",
+          "content": "你是一名中文电商广告文案助手。请根据商品属性生成准确、流畅且有吸引力的广告文案，不要编造未提供的关键属性。"
+        },
+        {
+          "role": "user",
+          "content": "请根据以下商品信息生成一段中文电商广告文案：类型为裤，版型为宽松，材质为混纺、纤维，风格为街头、简约、休闲、青春、性感，裤口为小脚。"
+        }
+      ],
+      "reference": "如今的休闲裤将经典与时尚结合，以束脚的工艺诠释着青春的率性感，同时街头感十足。这款由马克华菲推出弹性休闲束脚裤，采用经典的纤维混纺面料制成，整体的舒适度非常赞，穿着弹力十足。加之简约的小宽松版型的设计，穿着不挑身材，适合更多种身形的型男进行选择。",
+      "left": {
+        "output": "这款街头休闲裤，采用了纤维混纺面料，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，穿着舒适透气，",
+        "metrics": {
+          "attribute_hits": 5,
+          "attribute_count": 10,
+          "key_attribute_hits": 3,
+          "key_attribute_count": 4,
+          "literal_coverage": 0.5,
+          "key_literal_coverage": 0.75,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.9166666666666666,
+          "repeated_token_4gram_ratio": 0.8932806324110671,
+          "loop": true,
+          "eos_normal": false,
+          "char_length": 291,
+          "token_length": 256,
+          "missing_attributes": [
+            [
+              "版型",
+              "宽松"
+            ],
+            [
+              "风格",
+              "简约"
+            ],
+            [
+              "风格",
+              "青春"
+            ],
+            [
+              "风格",
+              "性感"
+            ],
+            [
+              "裤口",
+              "小脚"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      },
+      "right": {
+        "output": "舒适的a字裙摆，营造出轻盈清爽的感觉，搭配微喇叭的设计，带来活力又减龄的气息，简约小单品能够穿出时尚范儿，展现别样风情。后背绳设计，增添了亲和力气，让你不失时髦感。宽松的a款裁剪，轻松满足女生的时尚需求。",
+        "metrics": {
+          "attribute_hits": 2,
+          "attribute_count": 10,
+          "key_attribute_hits": 1,
+          "key_attribute_count": 4,
+          "literal_coverage": 0.2,
+          "key_literal_coverage": 0.25,
+          "all_attributes_covered": false,
+          "repeated_char_4gram_ratio": 0.0,
+          "repeated_token_4gram_ratio": 0.0,
+          "loop": false,
+          "eos_normal": false,
+          "char_length": 102,
+          "token_length": 96,
+          "missing_attributes": [
+            [
+              "类型",
+              "裤"
+            ],
+            [
+              "材质",
+              "混纺"
+            ],
+            [
+              "材质",
+              "纤维"
+            ],
+            [
+              "风格",
+              "街头"
+            ],
+            [
+              "风格",
+              "休闲"
+            ],
+            [
+              "风格",
+              "青春"
+            ],
+            [
+              "风格",
+              "性感"
+            ],
+            [
+              "裤口",
+              "小脚"
+            ]
+          ]
+        },
+        "finish_reason": "length"
+      }
+    }
+  ]
+}

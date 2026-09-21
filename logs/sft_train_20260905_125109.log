@@ -1,0 +1,232 @@
+所加载Model可训练参数：25.830 百万
+Epoch:[1/1] batch:1/9819, optimizer_step:1, loss:3.4659, grad_norm:28.5631, lr:0.00000100, elapsed:0.0min
+Epoch:[1/1] batch:50/9819, optimizer_step:50, loss:3.3517, grad_norm:11.5153, lr:0.00000100, elapsed:0.1min
+Epoch:[1/1] batch:100/9819, optimizer_step:100, loss:3.1181, grad_norm:15.1701, lr:0.00000100, elapsed:0.1min
+Epoch:[1/1] batch:150/9819, optimizer_step:150, loss:2.8518, grad_norm:5.1458, lr:0.00000100, elapsed:0.1min
+Epoch:[1/1] batch:200/9819, optimizer_step:200, loss:2.7296, grad_norm:10.5884, lr:0.00000100, elapsed:0.2min
+Epoch:[1/1] batch:250/9819, optimizer_step:250, loss:2.7577, grad_norm:4.1541, lr:0.00000100, elapsed:0.2min
+Epoch:[1/1] batch:300/9819, optimizer_step:300, loss:2.5965, grad_norm:3.2144, lr:0.00000100, elapsed:0.3min
+Epoch:[1/1] batch:350/9819, optimizer_step:350, loss:2.9241, grad_norm:3.7148, lr:0.00000100, elapsed:0.3min
+Epoch:[1/1] batch:400/9819, optimizer_step:400, loss:2.5186, grad_norm:2.6538, lr:0.00000100, elapsed:0.4min
+Epoch:[1/1] batch:450/9819, optimizer_step:450, loss:2.6895, grad_norm:3.1103, lr:0.00000100, elapsed:0.4min
+Epoch:[1/1] batch:500/9819, optimizer_step:500, loss:2.5410, grad_norm:3.1468, lr:0.00000099, elapsed:0.4min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:550/9819, optimizer_step:550, loss:2.6878, grad_norm:2.8588, lr:0.00000099, elapsed:0.5min
+Epoch:[1/1] batch:600/9819, optimizer_step:600, loss:2.5653, grad_norm:2.8870, lr:0.00000099, elapsed:0.5min
+Epoch:[1/1] batch:650/9819, optimizer_step:650, loss:2.6322, grad_norm:2.9794, lr:0.00000099, elapsed:0.6min
+Epoch:[1/1] batch:700/9819, optimizer_step:700, loss:2.5633, grad_norm:2.9036, lr:0.00000099, elapsed:0.6min
+Epoch:[1/1] batch:750/9819, optimizer_step:750, loss:2.8542, grad_norm:3.1919, lr:0.00000099, elapsed:0.7min
+Epoch:[1/1] batch:800/9819, optimizer_step:800, loss:2.3742, grad_norm:2.5895, lr:0.00000099, elapsed:0.7min
+Epoch:[1/1] batch:850/9819, optimizer_step:850, loss:2.6496, grad_norm:2.7044, lr:0.00000098, elapsed:0.8min
+Epoch:[1/1] batch:900/9819, optimizer_step:900, loss:2.6399, grad_norm:2.8657, lr:0.00000098, elapsed:0.8min
+Epoch:[1/1] batch:950/9819, optimizer_step:950, loss:2.4651, grad_norm:2.7626, lr:0.00000098, elapsed:0.8min
+Epoch:[1/1] batch:1000/9819, optimizer_step:1000, loss:2.5654, grad_norm:2.4449, lr:0.00000098, elapsed:0.9min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:1050/9819, optimizer_step:1050, loss:2.7929, grad_norm:2.7664, lr:0.00000097, elapsed:0.9min
+Epoch:[1/1] batch:1100/9819, optimizer_step:1100, loss:2.5862, grad_norm:3.0041, lr:0.00000097, elapsed:1.0min
+Epoch:[1/1] batch:1150/9819, optimizer_step:1150, loss:2.6695, grad_norm:2.8936, lr:0.00000097, elapsed:1.0min
+Epoch:[1/1] batch:1200/9819, optimizer_step:1200, loss:2.4489, grad_norm:2.7851, lr:0.00000097, elapsed:1.1min
+Epoch:[1/1] batch:1250/9819, optimizer_step:1250, loss:2.5125, grad_norm:2.7812, lr:0.00000096, elapsed:1.1min
+Epoch:[1/1] batch:1300/9819, optimizer_step:1300, loss:2.4561, grad_norm:2.5544, lr:0.00000096, elapsed:1.1min
+Epoch:[1/1] batch:1350/9819, optimizer_step:1350, loss:2.5550, grad_norm:2.5606, lr:0.00000096, elapsed:1.2min
+Epoch:[1/1] batch:1400/9819, optimizer_step:1400, loss:2.4720, grad_norm:2.7658, lr:0.00000096, elapsed:1.2min
+Epoch:[1/1] batch:1450/9819, optimizer_step:1450, loss:2.8117, grad_norm:3.0779, lr:0.00000095, elapsed:1.3min
+Epoch:[1/1] batch:1500/9819, optimizer_step:1500, loss:2.7210, grad_norm:3.0905, lr:0.00000095, elapsed:1.3min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:1550/9819, optimizer_step:1550, loss:2.6980, grad_norm:3.0946, lr:0.00000095, elapsed:1.4min
+Epoch:[1/1] batch:1600/9819, optimizer_step:1600, loss:2.2539, grad_norm:2.7539, lr:0.00000094, elapsed:1.4min
+Epoch:[1/1] batch:1650/9819, optimizer_step:1650, loss:2.6418, grad_norm:3.0298, lr:0.00000094, elapsed:1.5min
+Epoch:[1/1] batch:1700/9819, optimizer_step:1700, loss:2.4365, grad_norm:2.7047, lr:0.00000094, elapsed:1.5min
+Epoch:[1/1] batch:1750/9819, optimizer_step:1750, loss:2.5158, grad_norm:2.4658, lr:0.00000093, elapsed:1.5min
+Epoch:[1/1] batch:1800/9819, optimizer_step:1800, loss:2.1834, grad_norm:2.5991, lr:0.00000093, elapsed:1.6min
+Epoch:[1/1] batch:1850/9819, optimizer_step:1850, loss:2.4969, grad_norm:2.8323, lr:0.00000092, elapsed:1.6min
+Epoch:[1/1] batch:1900/9819, optimizer_step:1900, loss:2.3820, grad_norm:2.4467, lr:0.00000092, elapsed:1.7min
+Epoch:[1/1] batch:1950/9819, optimizer_step:1950, loss:2.5714, grad_norm:2.6755, lr:0.00000092, elapsed:1.7min
+Epoch:[1/1] batch:2000/9819, optimizer_step:2000, loss:2.4137, grad_norm:2.5654, lr:0.00000091, elapsed:1.8min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:2050/9819, optimizer_step:2050, loss:2.5045, grad_norm:2.8297, lr:0.00000091, elapsed:1.8min
+Epoch:[1/1] batch:2100/9819, optimizer_step:2100, loss:2.3918, grad_norm:2.4400, lr:0.00000090, elapsed:1.9min
+Epoch:[1/1] batch:2150/9819, optimizer_step:2150, loss:2.5893, grad_norm:2.6521, lr:0.00000090, elapsed:1.9min
+Epoch:[1/1] batch:2200/9819, optimizer_step:2200, loss:2.4054, grad_norm:2.5479, lr:0.00000089, elapsed:1.9min
+Epoch:[1/1] batch:2250/9819, optimizer_step:2250, loss:2.5305, grad_norm:2.8475, lr:0.00000089, elapsed:2.0min
+Epoch:[1/1] batch:2300/9819, optimizer_step:2300, loss:2.3165, grad_norm:2.5049, lr:0.00000088, elapsed:2.0min
+Epoch:[1/1] batch:2350/9819, optimizer_step:2350, loss:2.5915, grad_norm:2.8744, lr:0.00000088, elapsed:2.1min
+Epoch:[1/1] batch:2400/9819, optimizer_step:2400, loss:2.6914, grad_norm:2.6258, lr:0.00000087, elapsed:2.1min
+Epoch:[1/1] batch:2450/9819, optimizer_step:2450, loss:2.5639, grad_norm:2.8930, lr:0.00000087, elapsed:2.2min
+Epoch:[1/1] batch:2500/9819, optimizer_step:2500, loss:2.4456, grad_norm:2.6126, lr:0.00000086, elapsed:2.2min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:2550/9819, optimizer_step:2550, loss:2.3206, grad_norm:2.3916, lr:0.00000086, elapsed:2.2min
+Epoch:[1/1] batch:2600/9819, optimizer_step:2600, loss:2.3113, grad_norm:2.4342, lr:0.00000085, elapsed:2.3min
+Epoch:[1/1] batch:2650/9819, optimizer_step:2650, loss:2.4121, grad_norm:2.5160, lr:0.00000085, elapsed:2.3min
+Epoch:[1/1] batch:2700/9819, optimizer_step:2700, loss:2.3705, grad_norm:2.6125, lr:0.00000084, elapsed:2.4min
+Epoch:[1/1] batch:2750/9819, optimizer_step:2750, loss:2.5187, grad_norm:2.5144, lr:0.00000084, elapsed:2.4min
+Epoch:[1/1] batch:2800/9819, optimizer_step:2800, loss:2.5094, grad_norm:2.7728, lr:0.00000083, elapsed:2.5min
+Epoch:[1/1] batch:2850/9819, optimizer_step:2850, loss:2.4859, grad_norm:2.6737, lr:0.00000083, elapsed:2.5min
+Epoch:[1/1] batch:2900/9819, optimizer_step:2900, loss:2.1719, grad_norm:2.3424, lr:0.00000082, elapsed:2.5min
+Epoch:[1/1] batch:2950/9819, optimizer_step:2950, loss:2.4823, grad_norm:2.5708, lr:0.00000081, elapsed:2.6min
+Epoch:[1/1] batch:3000/9819, optimizer_step:3000, loss:2.4166, grad_norm:2.4108, lr:0.00000081, elapsed:2.6min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:3050/9819, optimizer_step:3050, loss:2.3654, grad_norm:2.6608, lr:0.00000080, elapsed:2.7min
+Epoch:[1/1] batch:3100/9819, optimizer_step:3100, loss:2.2922, grad_norm:2.6376, lr:0.00000080, elapsed:2.7min
+Epoch:[1/1] batch:3150/9819, optimizer_step:3150, loss:2.6691, grad_norm:2.3505, lr:0.00000079, elapsed:2.8min
+Epoch:[1/1] batch:3200/9819, optimizer_step:3200, loss:2.3827, grad_norm:2.4828, lr:0.00000078, elapsed:2.8min
+Epoch:[1/1] batch:3250/9819, optimizer_step:3250, loss:2.6843, grad_norm:2.5725, lr:0.00000078, elapsed:2.9min
+Epoch:[1/1] batch:3300/9819, optimizer_step:3300, loss:2.4857, grad_norm:2.9861, lr:0.00000077, elapsed:2.9min
+Epoch:[1/1] batch:3350/9819, optimizer_step:3350, loss:2.2400, grad_norm:2.5495, lr:0.00000077, elapsed:2.9min
+Epoch:[1/1] batch:3400/9819, optimizer_step:3400, loss:2.5605, grad_norm:2.5015, lr:0.00000076, elapsed:3.0min
+Epoch:[1/1] batch:3450/9819, optimizer_step:3450, loss:2.6714, grad_norm:2.5651, lr:0.00000075, elapsed:3.0min
+Epoch:[1/1] batch:3500/9819, optimizer_step:3500, loss:2.5160, grad_norm:2.6100, lr:0.00000075, elapsed:3.1min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:3550/9819, optimizer_step:3550, loss:2.6332, grad_norm:2.7201, lr:0.00000074, elapsed:3.1min
+Epoch:[1/1] batch:3600/9819, optimizer_step:3600, loss:2.5934, grad_norm:2.7654, lr:0.00000073, elapsed:3.2min
+Epoch:[1/1] batch:3650/9819, optimizer_step:3650, loss:2.1215, grad_norm:2.4690, lr:0.00000073, elapsed:3.2min
+Epoch:[1/1] batch:3700/9819, optimizer_step:3700, loss:2.4779, grad_norm:2.5471, lr:0.00000072, elapsed:3.3min
+Epoch:[1/1] batch:3750/9819, optimizer_step:3750, loss:2.2652, grad_norm:2.4748, lr:0.00000071, elapsed:3.3min
+Epoch:[1/1] batch:3800/9819, optimizer_step:3800, loss:2.4150, grad_norm:2.6042, lr:0.00000071, elapsed:3.3min
+Epoch:[1/1] batch:3850/9819, optimizer_step:3850, loss:2.7971, grad_norm:2.9544, lr:0.00000070, elapsed:3.4min
+Epoch:[1/1] batch:3900/9819, optimizer_step:3900, loss:2.4794, grad_norm:2.5560, lr:0.00000069, elapsed:3.4min
+Epoch:[1/1] batch:3950/9819, optimizer_step:3950, loss:2.5162, grad_norm:2.6231, lr:0.00000069, elapsed:3.5min
+Epoch:[1/1] batch:4000/9819, optimizer_step:4000, loss:2.3038, grad_norm:2.4881, lr:0.00000068, elapsed:3.5min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:4050/9819, optimizer_step:4050, loss:2.3734, grad_norm:2.4228, lr:0.00000067, elapsed:3.6min
+Epoch:[1/1] batch:4100/9819, optimizer_step:4100, loss:2.5056, grad_norm:2.5080, lr:0.00000067, elapsed:3.6min
+Epoch:[1/1] batch:4150/9819, optimizer_step:4150, loss:2.2376, grad_norm:2.5373, lr:0.00000066, elapsed:3.7min
+Epoch:[1/1] batch:4200/9819, optimizer_step:4200, loss:2.3424, grad_norm:2.5964, lr:0.00000065, elapsed:3.7min
+Epoch:[1/1] batch:4250/9819, optimizer_step:4250, loss:2.4168, grad_norm:2.7568, lr:0.00000064, elapsed:3.8min
+Epoch:[1/1] batch:4300/9819, optimizer_step:4300, loss:2.3196, grad_norm:2.6212, lr:0.00000064, elapsed:3.8min
+Epoch:[1/1] batch:4350/9819, optimizer_step:4350, loss:2.3889, grad_norm:2.5975, lr:0.00000063, elapsed:3.8min
+Epoch:[1/1] batch:4400/9819, optimizer_step:4400, loss:2.5000, grad_norm:2.5170, lr:0.00000062, elapsed:3.9min
+Epoch:[1/1] batch:4450/9819, optimizer_step:4450, loss:2.4719, grad_norm:2.5123, lr:0.00000062, elapsed:3.9min
+Epoch:[1/1] batch:4500/9819, optimizer_step:4500, loss:2.4627, grad_norm:2.6052, lr:0.00000061, elapsed:4.0min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:4550/9819, optimizer_step:4550, loss:2.3907, grad_norm:2.3179, lr:0.00000060, elapsed:4.0min
+Epoch:[1/1] batch:4600/9819, optimizer_step:4600, loss:2.3896, grad_norm:2.4496, lr:0.00000059, elapsed:4.1min
+Epoch:[1/1] batch:4650/9819, optimizer_step:4650, loss:2.4398, grad_norm:2.5747, lr:0.00000059, elapsed:4.1min
+Epoch:[1/1] batch:4700/9819, optimizer_step:4700, loss:2.2987, grad_norm:2.3015, lr:0.00000058, elapsed:4.2min
+Epoch:[1/1] batch:4750/9819, optimizer_step:4750, loss:2.4488, grad_norm:3.0448, lr:0.00000057, elapsed:4.2min
+Epoch:[1/1] batch:4800/9819, optimizer_step:4800, loss:2.5064, grad_norm:2.5352, lr:0.00000057, elapsed:4.3min
+Epoch:[1/1] batch:4850/9819, optimizer_step:4850, loss:2.6729, grad_norm:2.6743, lr:0.00000056, elapsed:4.3min
+Epoch:[1/1] batch:4900/9819, optimizer_step:4900, loss:2.4190, grad_norm:2.5252, lr:0.00000055, elapsed:4.4min
+Epoch:[1/1] batch:4950/9819, optimizer_step:4950, loss:2.4280, grad_norm:2.6076, lr:0.00000054, elapsed:4.4min
+Epoch:[1/1] batch:5000/9819, optimizer_step:5000, loss:2.3245, grad_norm:2.5859, lr:0.00000054, elapsed:4.4min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:5050/9819, optimizer_step:5050, loss:2.6503, grad_norm:2.6954, lr:0.00000053, elapsed:4.5min
+Epoch:[1/1] batch:5100/9819, optimizer_step:5100, loss:2.1728, grad_norm:2.4804, lr:0.00000052, elapsed:4.5min
+Epoch:[1/1] batch:5150/9819, optimizer_step:5150, loss:2.6495, grad_norm:2.6132, lr:0.00000052, elapsed:4.6min
+Epoch:[1/1] batch:5200/9819, optimizer_step:5200, loss:2.4298, grad_norm:2.3893, lr:0.00000051, elapsed:4.6min
+Epoch:[1/1] batch:5250/9819, optimizer_step:5250, loss:2.4656, grad_norm:2.3707, lr:0.00000050, elapsed:4.7min
+Epoch:[1/1] batch:5300/9819, optimizer_step:5300, loss:2.4336, grad_norm:2.4017, lr:0.00000049, elapsed:4.7min
+Epoch:[1/1] batch:5350/9819, optimizer_step:5350, loss:2.6153, grad_norm:2.7891, lr:0.00000049, elapsed:4.8min
+Epoch:[1/1] batch:5400/9819, optimizer_step:5400, loss:2.4519, grad_norm:2.5653, lr:0.00000048, elapsed:4.8min
+Epoch:[1/1] batch:5450/9819, optimizer_step:5450, loss:2.5843, grad_norm:2.5291, lr:0.00000047, elapsed:4.9min
+Epoch:[1/1] batch:5500/9819, optimizer_step:5500, loss:2.3607, grad_norm:2.5684, lr:0.00000047, elapsed:4.9min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:5550/9819, optimizer_step:5550, loss:2.5252, grad_norm:2.6438, lr:0.00000046, elapsed:4.9min
+Epoch:[1/1] batch:5600/9819, optimizer_step:5600, loss:2.3560, grad_norm:2.5104, lr:0.00000045, elapsed:5.0min
+Epoch:[1/1] batch:5650/9819, optimizer_step:5650, loss:2.5501, grad_norm:2.7438, lr:0.00000044, elapsed:5.0min
+Epoch:[1/1] batch:5700/9819, optimizer_step:5700, loss:2.6061, grad_norm:2.4450, lr:0.00000044, elapsed:5.1min
+Epoch:[1/1] batch:5750/9819, optimizer_step:5750, loss:2.5186, grad_norm:2.5455, lr:0.00000043, elapsed:5.1min
+Epoch:[1/1] batch:5800/9819, optimizer_step:5800, loss:2.5423, grad_norm:2.6849, lr:0.00000042, elapsed:5.2min
+Epoch:[1/1] batch:5850/9819, optimizer_step:5850, loss:2.5149, grad_norm:2.6110, lr:0.00000042, elapsed:5.2min
+Epoch:[1/1] batch:5900/9819, optimizer_step:5900, loss:2.5498, grad_norm:2.5090, lr:0.00000041, elapsed:5.3min
+Epoch:[1/1] batch:5950/9819, optimizer_step:5950, loss:2.3421, grad_norm:2.5110, lr:0.00000040, elapsed:5.3min
+Epoch:[1/1] batch:6000/9819, optimizer_step:6000, loss:2.5317, grad_norm:2.5277, lr:0.00000040, elapsed:5.3min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:6050/9819, optimizer_step:6050, loss:2.2349, grad_norm:2.4925, lr:0.00000039, elapsed:5.4min
+Epoch:[1/1] batch:6100/9819, optimizer_step:6100, loss:2.4537, grad_norm:2.7633, lr:0.00000038, elapsed:5.4min
+Epoch:[1/1] batch:6150/9819, optimizer_step:6150, loss:2.4952, grad_norm:2.4944, lr:0.00000038, elapsed:5.5min
+Epoch:[1/1] batch:6200/9819, optimizer_step:6200, loss:2.4634, grad_norm:2.3664, lr:0.00000037, elapsed:5.5min
+Epoch:[1/1] batch:6250/9819, optimizer_step:6250, loss:2.5369, grad_norm:2.5812, lr:0.00000036, elapsed:5.6min
+Epoch:[1/1] batch:6300/9819, optimizer_step:6300, loss:2.5174, grad_norm:2.7592, lr:0.00000036, elapsed:5.6min
+Epoch:[1/1] batch:6350/9819, optimizer_step:6350, loss:2.2056, grad_norm:2.5779, lr:0.00000035, elapsed:5.7min
+Epoch:[1/1] batch:6400/9819, optimizer_step:6400, loss:2.5927, grad_norm:2.7559, lr:0.00000034, elapsed:5.7min
+Epoch:[1/1] batch:6450/9819, optimizer_step:6450, loss:2.1730, grad_norm:2.4624, lr:0.00000034, elapsed:5.7min
+Epoch:[1/1] batch:6500/9819, optimizer_step:6500, loss:2.5359, grad_norm:2.4958, lr:0.00000033, elapsed:5.8min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:6550/9819, optimizer_step:6550, loss:2.3994, grad_norm:2.5107, lr:0.00000032, elapsed:5.8min
+Epoch:[1/1] batch:6600/9819, optimizer_step:6600, loss:2.3532, grad_norm:2.4846, lr:0.00000032, elapsed:5.9min
+Epoch:[1/1] batch:6650/9819, optimizer_step:6650, loss:2.5792, grad_norm:2.6098, lr:0.00000031, elapsed:5.9min
+Epoch:[1/1] batch:6700/9819, optimizer_step:6700, loss:2.3628, grad_norm:2.3070, lr:0.00000031, elapsed:6.0min
+Epoch:[1/1] batch:6750/9819, optimizer_step:6750, loss:2.3276, grad_norm:2.6987, lr:0.00000030, elapsed:6.0min
+Epoch:[1/1] batch:6800/9819, optimizer_step:6800, loss:2.4617, grad_norm:2.4331, lr:0.00000029, elapsed:6.1min
+Epoch:[1/1] batch:6850/9819, optimizer_step:6850, loss:2.3725, grad_norm:2.6130, lr:0.00000029, elapsed:6.1min
+Epoch:[1/1] batch:6900/9819, optimizer_step:6900, loss:2.2671, grad_norm:2.4425, lr:0.00000028, elapsed:6.1min
+Epoch:[1/1] batch:6950/9819, optimizer_step:6950, loss:2.3765, grad_norm:2.6982, lr:0.00000028, elapsed:6.2min
+Epoch:[1/1] batch:7000/9819, optimizer_step:7000, loss:2.3245, grad_norm:2.3040, lr:0.00000027, elapsed:6.2min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:7050/9819, optimizer_step:7050, loss:2.4208, grad_norm:2.4915, lr:0.00000027, elapsed:6.3min
+Epoch:[1/1] batch:7100/9819, optimizer_step:7100, loss:2.2078, grad_norm:2.4608, lr:0.00000026, elapsed:6.3min
+Epoch:[1/1] batch:7150/9819, optimizer_step:7150, loss:2.4072, grad_norm:2.4126, lr:0.00000025, elapsed:6.4min
+Epoch:[1/1] batch:7200/9819, optimizer_step:7200, loss:2.6066, grad_norm:2.4167, lr:0.00000025, elapsed:6.4min
+Epoch:[1/1] batch:7250/9819, optimizer_step:7250, loss:2.4994, grad_norm:2.4389, lr:0.00000024, elapsed:6.5min
+Epoch:[1/1] batch:7300/9819, optimizer_step:7300, loss:2.3261, grad_norm:2.3417, lr:0.00000024, elapsed:6.5min
+Epoch:[1/1] batch:7350/9819, optimizer_step:7350, loss:2.3825, grad_norm:2.5935, lr:0.00000023, elapsed:6.5min
+Epoch:[1/1] batch:7400/9819, optimizer_step:7400, loss:2.4367, grad_norm:2.5529, lr:0.00000023, elapsed:6.6min
+Epoch:[1/1] batch:7450/9819, optimizer_step:7450, loss:2.5097, grad_norm:2.6516, lr:0.00000022, elapsed:6.6min
+Epoch:[1/1] batch:7500/9819, optimizer_step:7500, loss:2.6882, grad_norm:2.5607, lr:0.00000022, elapsed:6.7min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:7550/9819, optimizer_step:7550, loss:2.0862, grad_norm:2.5676, lr:0.00000021, elapsed:6.7min
+Epoch:[1/1] batch:7600/9819, optimizer_step:7600, loss:2.3853, grad_norm:2.6088, lr:0.00000021, elapsed:6.8min
+Epoch:[1/1] batch:7650/9819, optimizer_step:7650, loss:2.4534, grad_norm:2.6750, lr:0.00000020, elapsed:6.8min
+Epoch:[1/1] batch:7700/9819, optimizer_step:7700, loss:2.4014, grad_norm:2.4302, lr:0.00000020, elapsed:6.9min
+Epoch:[1/1] batch:7750/9819, optimizer_step:7750, loss:2.3907, grad_norm:2.5845, lr:0.00000020, elapsed:6.9min
+Epoch:[1/1] batch:7800/9819, optimizer_step:7800, loss:2.5347, grad_norm:2.4928, lr:0.00000019, elapsed:6.9min
+Epoch:[1/1] batch:7850/9819, optimizer_step:7850, loss:2.4121, grad_norm:2.3504, lr:0.00000019, elapsed:7.0min
+Epoch:[1/1] batch:7900/9819, optimizer_step:7900, loss:2.2697, grad_norm:2.4073, lr:0.00000018, elapsed:7.0min
+Epoch:[1/1] batch:7950/9819, optimizer_step:7950, loss:2.4802, grad_norm:2.7815, lr:0.00000018, elapsed:7.1min
+Epoch:[1/1] batch:8000/9819, optimizer_step:8000, loss:2.4962, grad_norm:2.4909, lr:0.00000017, elapsed:7.1min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:8050/9819, optimizer_step:8050, loss:2.4424, grad_norm:2.5588, lr:0.00000017, elapsed:7.2min
+Epoch:[1/1] batch:8100/9819, optimizer_step:8100, loss:2.3995, grad_norm:2.4807, lr:0.00000017, elapsed:7.2min
+Epoch:[1/1] batch:8150/9819, optimizer_step:8150, loss:2.5670, grad_norm:2.5480, lr:0.00000016, elapsed:7.3min
+Epoch:[1/1] batch:8200/9819, optimizer_step:8200, loss:2.2015, grad_norm:2.9253, lr:0.00000016, elapsed:7.3min
+Epoch:[1/1] batch:8250/9819, optimizer_step:8250, loss:2.6505, grad_norm:2.6922, lr:0.00000016, elapsed:7.3min
+Epoch:[1/1] batch:8300/9819, optimizer_step:8300, loss:2.5319, grad_norm:2.6144, lr:0.00000015, elapsed:7.4min
+Epoch:[1/1] batch:8350/9819, optimizer_step:8350, loss:2.2822, grad_norm:2.4187, lr:0.00000015, elapsed:7.4min
+Epoch:[1/1] batch:8400/9819, optimizer_step:8400, loss:2.3190, grad_norm:2.5963, lr:0.00000015, elapsed:7.5min
+Epoch:[1/1] batch:8450/9819, optimizer_step:8450, loss:2.4162, grad_norm:2.5914, lr:0.00000014, elapsed:7.5min
+Epoch:[1/1] batch:8500/9819, optimizer_step:8500, loss:2.4463, grad_norm:2.5372, lr:0.00000014, elapsed:7.6min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:8550/9819, optimizer_step:8550, loss:2.3059, grad_norm:2.7046, lr:0.00000014, elapsed:7.6min
+Epoch:[1/1] batch:8600/9819, optimizer_step:8600, loss:2.3977, grad_norm:2.5219, lr:0.00000013, elapsed:7.6min
+Epoch:[1/1] batch:8650/9819, optimizer_step:8650, loss:2.4809, grad_norm:2.6278, lr:0.00000013, elapsed:7.7min
+Epoch:[1/1] batch:8700/9819, optimizer_step:8700, loss:2.4569, grad_norm:2.5135, lr:0.00000013, elapsed:7.7min
+Epoch:[1/1] batch:8750/9819, optimizer_step:8750, loss:2.2902, grad_norm:2.7387, lr:0.00000013, elapsed:7.8min
+Epoch:[1/1] batch:8800/9819, optimizer_step:8800, loss:2.2552, grad_norm:2.3229, lr:0.00000012, elapsed:7.8min
+Epoch:[1/1] batch:8850/9819, optimizer_step:8850, loss:2.3257, grad_norm:2.5087, lr:0.00000012, elapsed:7.9min
+Epoch:[1/1] batch:8900/9819, optimizer_step:8900, loss:2.5302, grad_norm:2.4941, lr:0.00000012, elapsed:7.9min
+Epoch:[1/1] batch:8950/9819, optimizer_step:8950, loss:2.5392, grad_norm:2.5016, lr:0.00000012, elapsed:8.0min
+Epoch:[1/1] batch:9000/9819, optimizer_step:9000, loss:2.4880, grad_norm:2.9215, lr:0.00000012, elapsed:8.0min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:9050/9819, optimizer_step:9050, loss:2.3703, grad_norm:2.4098, lr:0.00000011, elapsed:8.0min
+Epoch:[1/1] batch:9100/9819, optimizer_step:9100, loss:2.4495, grad_norm:2.5108, lr:0.00000011, elapsed:8.1min
+Epoch:[1/1] batch:9150/9819, optimizer_step:9150, loss:2.4927, grad_norm:2.5956, lr:0.00000011, elapsed:8.1min
+Epoch:[1/1] batch:9200/9819, optimizer_step:9200, loss:2.4023, grad_norm:2.5997, lr:0.00000011, elapsed:8.2min
+Epoch:[1/1] batch:9250/9819, optimizer_step:9250, loss:2.5968, grad_norm:2.5646, lr:0.00000011, elapsed:8.2min
+Epoch:[1/1] batch:9300/9819, optimizer_step:9300, loss:2.3935, grad_norm:2.7226, lr:0.00000011, elapsed:8.3min
+Epoch:[1/1] batch:9350/9819, optimizer_step:9350, loss:2.3181, grad_norm:2.7765, lr:0.00000011, elapsed:8.3min
+Epoch:[1/1] batch:9400/9819, optimizer_step:9400, loss:2.4929, grad_norm:2.4047, lr:0.00000010, elapsed:8.4min
+Epoch:[1/1] batch:9450/9819, optimizer_step:9450, loss:2.4250, grad_norm:2.3243, lr:0.00000010, elapsed:8.4min
+Epoch:[1/1] batch:9500/9819, optimizer_step:9500, loss:2.3942, grad_norm:2.4404, lr:0.00000010, elapsed:8.4min
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+Epoch:[1/1] batch:9550/9819, optimizer_step:9550, loss:2.2650, grad_norm:2.5199, lr:0.00000010, elapsed:8.5min
+Epoch:[1/1] batch:9600/9819, optimizer_step:9600, loss:2.4724, grad_norm:2.6673, lr:0.00000010, elapsed:8.5min
+Epoch:[1/1] batch:9650/9819, optimizer_step:9650, loss:2.4966, grad_norm:2.4430, lr:0.00000010, elapsed:8.6min
+Epoch:[1/1] batch:9700/9819, optimizer_step:9700, loss:2.3990, grad_norm:2.4327, lr:0.00000010, elapsed:8.6min
+Epoch:[1/1] batch:9750/9819, optimizer_step:9750, loss:2.3713, grad_norm:2.6659, lr:0.00000010, elapsed:8.7min
+Epoch:[1/1] batch:9800/9819, optimizer_step:9800, loss:2.4581, grad_norm:2.4754, lr:0.00000010, elapsed:8.7min
+Validation: optimizer_step:9819, loss:2.4280
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_best_512.pth
+权重已保存: /root/autodl-tmp/MokioMind/out/advertise_sft_ep1_512.pth
+重新加载 advertise_sft_ep1_best checkpoint 并执行生成检查
+所加载Model可训练参数：25.830 百万
+[生成检查 1] 输入: 商品属性：类型#裙*版型#宽松*风格#文艺*裙下摆#压褶*裙长#连衣裙
+[生成检查 1] 输出: 这款连衣裙采用了宽松的版型设计，穿着舒适，穿着舒适。宽松的版型设计，穿着舒适，穿着舒适。腰部的压褶设计，穿着舒适，穿着舒适。
+[生成检查 2] 输入: 请根据以下商品信息生成一段中文电商广告文案：类型为裙，版型为宽松，风格为文艺，裙下摆为压褶，裙长为连衣裙。
+[生成检查 2] 输出: 这款连衣裙采用了宽松的版型设计，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿
+[生成检查 3] 输入: 商品属性：类型#上衣*版型#宽松*版型#显瘦*颜色#灰色*风格#街头*风格#清新*图案#条纹*衣样式#卫衣*衣长#短款*衣款式#抽绳*衣款式#连帽
+[生成检查 3] 输出: 这款卫衣采用了宽松的版型设计，穿着舒适，穿着舒适。宽松的版型设计，穿着舒适，穿着舒适。宽松的版型设计，穿着舒适，穿着舒适。
+[生成检查 4] 输入: 请根据以下商品信息生成一段中文电商广告文案：类型为上衣，版型为宽松、显瘦，颜色为灰色，风格为街头、清新，图案为条纹，衣样式为卫衣，衣长为短款，衣款式为抽绳、连帽。
+[生成检查 4] 输出: 这款卫衣采用了宽松的版型设计，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适，穿着舒适
+[生成检查 5] 输入: 商品属性：类型#裤*风格#简约*风格#ol*裤型#阔腿裤
+[生成检查 5] 输出: 这款裤子采用了简约的阔腿裤，采用了阔腿裤的版型，穿着舒适又不失时尚感。裤脚采用了阔腿裤的版型，穿着舒适又不失时尚感。
