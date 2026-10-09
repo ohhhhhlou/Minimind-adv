@@ -3,7 +3,7 @@
 
 ###我在原项目上更改了奖励函数以适配广告生成的需求
 
-###广告数据来源于hugging face 后续会附上链接
+###广告数据来源于hugging face shibing624/AdvertiseGen
 
 ###接入了外置的评分程序
 
